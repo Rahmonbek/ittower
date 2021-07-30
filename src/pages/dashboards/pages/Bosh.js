@@ -12,9 +12,7 @@ import {
   FormControl,
   Form,
 } from "react-bootstrap";
-
 import logo122 from "../img/12347.png";
-import logo from "../img/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Router, Route, Link, Switch } from "react-router-dom";
 import Contact from "../NavbarMenu/Contact";
@@ -38,7 +36,7 @@ export default function Bosh() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className={styles.selectLanguage}>
               <div>
-                <Router>
+                <BrowserRouter>
                   <div>
                     <nav>
                       <ul>
@@ -53,9 +51,6 @@ export default function Bosh() {
                         </li>
                       </ul>
                     </nav>
-
-                    {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
                     <Switch>
                       <Route path="/contact">
                         <Contact />
@@ -68,7 +63,7 @@ export default function Bosh() {
                       </Route>
                     </Switch>
                   </div>
-                </Router>
+                </BrowserRouter>
                 </div>
             </Nav>
           </Navbar.Collapse>
