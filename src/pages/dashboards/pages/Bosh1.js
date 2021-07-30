@@ -26,22 +26,18 @@ export default class Bosh1 extends Component {
                 >
                   Dasturlash
                 </span>
-                <br/>  va yo`nalishlardagi ofline va online kurslarimizga taklif qilamiz.
+                <br /> va yo`nalishlardagi ofline va online kurslarimizga taklif
+                qilamiz.
               </p>
               <span
                 style={{ fontWeight: "800", fontSize: "2.6vw", width: "100%" }}
-              >
-              
-              </span>
+              ></span>
             </div>
 
             <div style={{ color: "white" }} className={stayle.dastur1}>
               Siz istalgan vaqtda har qanday mavzuda kurslarni o’rganishingiz
-              mumkin. 
+              mumkin.
             </div>
-
-        
-                
           </div>
 
           <Row
@@ -119,7 +115,6 @@ export default class Bosh1 extends Component {
                 </div>
               </div>
             </Col>
-       
           </Row>
         </div>
       </div>
