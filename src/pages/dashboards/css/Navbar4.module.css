@@ -1,0 +1,58 @@
+.tasvir{
+    background-image: url("/src/pages/dashboard/img/tasvir.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:20px;  
+width: 100%;
+border-radius: 0px;
+}
+.text{
+ 
+    
+    width: 100%;
+    padding-left: 96px;
+    padding-top: 10px;
+    border-radius: nullpx;
+    font-family: SF Pro Display;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.text1{
+    color: #FFFFFF;
+    width: 80px;
+    display:flex;
+    margin:auto;
+    text-align: left;
+    padding-top: 20px;
+    border-radius: 0px;
+    font-size:3vw;
+    width:5%;
+    height: 5%;
+}
+.text2{
+   
+    color: #FFFFFF;
+   
+
+    display:flex;
+    margin:auto;
+padding-right: 10px;
+    align-items:right;
+    padding-top: 20px;
+    border-radius: 0px;
+    font-size:3vw;
+    width:5%;
+    height: 5%;
+}
+.text3{
+position:relative;
+    font-family: SF Pro Display;
+font-size: 3vw;
+text-align: left;
+    border-radius: nullpx;
+    color: #FFFFFF;
+
+}
