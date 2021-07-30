@@ -14,10 +14,8 @@ import {
 } from "react-bootstrap";
 import logo122 from "../img/12347.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Router, Route, Link, Switch } from "react-router-dom";
-import Contact from "../NavbarMenu/Contact";
-import Course from "../NavbarMenu/Course";
-import Home from "../NavbarMenu/Home";
+import { BrowserRouter,Link } from "react-router-dom";
+
 
 export default function Bosh() {
   return (
@@ -30,41 +28,20 @@ export default function Bosh() {
       >
         <Container>
           <Navbar.Brand href="#home">
-            <img src={logo122} />
+            <img src={logo122} style={{width:'75px',height:'75px'}} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className={styles.selectLanguage}>
-              <div>
+            <Nav className={styles.selectLanguage}> 
+           
                 <BrowserRouter>
-                  <div>
-                    <nav>
-                      <ul>
-                        <li>
-                          <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                          <Link to="/course">Course</Link>
-                        </li>
-                        <li>
-                          <Link to="/contact">Contact</Link>
-                        </li>
-                      </ul>
-                    </nav>
-                    <Switch>
-                      <Route path="/contact">
-                        <Contact />
-                      </Route>
-                      <Route path="/course">
-                        <Course />
-                      </Route>
-                      <Route path="/">
-                        <Home />
-                      </Route>
-                    </Switch>
-                  </div>
+                  
+                <Nav.Link>  <Link to="/">Home</Link></Nav.Link> 
+                <Nav.Link>  <Link to="/course">Course</Link></Nav.Link> 
+                <Nav.Link>     <Link to="/contact">Contact</Link></Nav.Link>  
+                  
                 </BrowserRouter>
-                </div>
+  
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,8 +1,8 @@
-
 import React, { Component } from 'react'
-import style from '../css/Navbar6.module.css'
+import style from '../css/Footer.module.css'
 import payme from '../img/payme.png'
 import click from '../img/click.png'
+import cx from 'classnames'
 import upay from '../img/upay.png'
 import telegram from '../img/telegram.png'
 import facebook from '../img/facebook.png'
@@ -13,8 +13,6 @@ export default class Footer extends Component {
     render() {
         return (
             <div>
-
-                <div className={style.all1}>
             <div className={style.footer_top}></div>
             <div className={style.container}>
                 <div className={style.row}>
@@ -40,19 +38,19 @@ export default class Footer extends Component {
                     <div className={style.col-3}>
                         <h4>To’lov turlari</h4>
                         <div className={style.payments}>
-                            <img  src={payme}  alt="BigCo Inc. logo" />
-                            <img style={{marginLeft:'14px'}} src={click} alt="BigCo Inc. logo" />
-                            <img style={{width:'48px',marginLeft:'14px'}} src={upay} alt="BigCo Inc. logo" />
+                            <img  src={payme} />
+                            <img style={{marginLeft:'14px'}} src={click} />
+                            <img style={{width:'48px',marginLeft:'14px'}} src={upay} />
                         </div>
                     </div>
                 </div>
                 <div className={style.row1}>
                     <div className={style.col-3}>
-                        <div className={style.payments}>
-                            <a href="https://telegram.com" target="_blank"><img style={{width:'18px'}} src={telegram} alt="BigCo Inc. logo" /></a>
-                            <a href="https://facebook.com" target="_blank"><img style={{width:'15px'}} src={facebook}  alt="BigCo Inc. logo" /></a>
-                            <a href="https://instagram.com" target="_blank"><img style={{width:'18px'}} src={instagram} alt="BigCo Inc. logo" /></a>
-                            <a href="https://youtube.com" target="_blank"><img style={{width:'18px'}} src={youtube} alt="BigCo Inc. logo" /></a>
+                        <div className={cx(style.payments,style.pay)}>
+                            <a href="https://telegram.com" target="_blank"><img style={{width:'18px'}} src={telegram} /></a>
+                            <a href="https://facebook.com" target="_blank"><img style={{width:'18px'}} src={facebook} /></a>
+                            <a href="https://instagram.com" target="_blank"><img style={{width:'18px'}} src={instagram} /></a>
+                            <a href="https://youtube.com" target="_blank"><img style={{width:'18px'}} src={youtube} /></a>
                         </div>
                     </div>
                     <div className={style.col-3}>
@@ -61,7 +59,7 @@ export default class Footer extends Component {
                     </div>
                 </div>
                 <p className={style.footer}>© 2019 storm.uz<div className={style.line}></div>Personel Development Process LLC<div className={style.line}></div>Foydalanish shartlari</p>
-            </div></div>
+            </div>
             </div>
         )
     }

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Bosh from './pages/Bosh'
 import Bosh1 from './pages/Bosh1'
 import Bosh2 from './pages/Bosh2'
-import Bosh7 from './pages/Bosh7'
+import Footer from './pages/Footer'
 import Bosh4 from './pages/card/About'
 import Bosh5 from './pages/Bosh5'
 import Bosh6 from './pages/Bosh6'
@@ -17,7 +17,8 @@ export default class Menyu extends Component {
         <Bosh4 />
         <Bosh5 />
         <Bosh6 />
-        <Bosh7/>      </div>
+        <Footer />
+            </div>
     )
   }
 }

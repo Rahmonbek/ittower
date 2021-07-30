@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import Menyu from './Bosh' 
 import { Button, Card, Col, Row } from 'react-bootstrap';
-import reklama from '../img/rekalama.jpg'
+
 import InstagramIcon from '@material-ui/icons/Instagram';
 import { Map ,Placemark,YMaps} from 'react-yandex-maps';
 import PhoneIcon from '@material-ui/icons/Phone';
-
+import Footer from './Footer';
 
 export default class Contacts extends Component {
   render() {
@@ -40,6 +40,8 @@ export default class Contacts extends Component {
     <Button variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>
+
+<Footer />
       </div>
     )
   }
