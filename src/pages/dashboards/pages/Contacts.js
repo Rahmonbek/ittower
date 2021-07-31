@@ -20,7 +20,7 @@ export default class Contacts extends Component {
 </YMaps>
 
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Biz bilan bog`lanish</Card.Title>
     <Card.Text>
      <Row>
 <Col>
@@ -28,8 +28,8 @@ export default class Contacts extends Component {
 <div><PhoneIcon style={{paddingRight:'10px'}}  />+998 95 007-06-50</div>
 </Col>
 <Col>
-<div><InstagramIcon style={{paddingRight:'10px'}}  />@IT_tower</div>
-<div><i class="fa fa-paper-plane-o" aria-hidden="true" style={{paddingRight:'10px'}} ></i>@it_tower_academy</div>
+<div><InstagramIcon style={{paddingRight:'10px'}}  /><a herf="https://t.me/IT_tower" style={{textDecoration:'none'}} > @IT_tower</a> </div>
+<div><i class="fa fa-paper-plane-o" aria-hidden="true" style={{paddingRight:'10px'}} ></i><a href="https://www.instagram.com/it_tower_academy/">@it_tower_academy</a></div>
 </Col>
 
 
@@ -37,7 +37,6 @@ export default class Contacts extends Component {
 
      </Row>
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>
 

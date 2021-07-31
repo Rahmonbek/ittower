@@ -6,40 +6,40 @@ import { Map ,Placemark,YMaps} from 'react-yandex-maps';
 import PhoneIcon from '@material-ui/icons/Phone';
 import TelegramIcon from '@material-ui/icons/Telegram'; 
 import Footer from '../pages/Footer';
+import style from '../css/Navbar5.module.css'
 
 export default function Contact() {
     return (
         <div>
            <Menyu />        
-        <Card style={{ width: '70%',textAlign:'center',margin:'auto',marginTop:'100px' }}>
+        <Card className={style.mobil} style={{ width: '85%',textAlign:'center',margin:'auto',marginTop:'10px' }}>
         
         <YMaps >
-  <Map style={{width:'100%',height:'500px'}} defaultState={{ center: [41.263795, 69.225990], zoom: 12}} >
+  <Map style={{width:'100%',height:'30vw'}} defaultState={{ center: [41.263795, 69.225990], zoom: 12}} >
   <Placemark geometry={[41.263795, 69.225990]} />
 
 </Map>
 </YMaps>
 
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title style={{textAlign: 'center',paddingTop:'50px',width:'100%',fontFamily: 'SF Pro Display',fontSize: '30px',color: '#2E2E2E'}}>Biz bilan bog`lanish</Card.Title>
     <Card.Text>
-     <Row>
+     <Row >
 <Col>
 <div style={{fontSize:'23px'}}><PhoneIcon style={{paddingRight:'10px',width:'40px',height:'40px'}}    />+998 99 934-97-07</div>
 <div  style={{fontSize:'23px'}}><PhoneIcon style={{paddingRight:'10px',width:'40px',height:'40px'}}  />+998 95 007-06-50</div>
 </Col>
 <Col>
-<div  style={{fontSize:'23px'}}><InstagramIcon style={{paddingRight:'10px',width:'40px',height:'40px'}}  />@IT_tower</div>
-<div  style={{fontSize:'23px'}}
-> <TelegramIcon style={{paddingRight:'10px',width:'40px',height:'40px'}} />@it_tower_academy</div>
+<div  style={{fontSize:'23px'}}><TelegramIcon style={{paddingRight:'10px',width:'40px',height:'40px',}}  /><a style={{textDecoration:'none'}} href="https://t.me/IT_tower">@IT_tower</a></div>
+<div  style={{fontSize:'23px'}}><InstagramIcon style={{paddingRight:'10px',width:'40px',height:'40px'}} /><a href="https://www.instagram.com/it_tower_academy/">@it_tower_academy</a></div>
 </Col>
 
 
 
 
-     </Row>
+     </Row>    <h2>Manzil: Toshkent shahar Yashnabot tuman zulfiyaxonim kocha 5-uy</h2>
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+
   </Card.Body>
 </Card>  
 
