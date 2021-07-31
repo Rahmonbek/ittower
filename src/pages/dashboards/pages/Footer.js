@@ -5,9 +5,11 @@ import click from '../img/click.png'
 import cx from 'classnames'
 import upay from '../img/upay.png'
 import telegram from '../img/telegram.png'
-import facebook from '../img/facebook.png'
+
 import instagram from '../img/instagram.png'
 import youtube from '../img/youtube.png'
+import { Link } from 'react-router-dom'
+import AlternateEmailIcon from '@material-ui/icons/AlternateEmail'; 
 
 export default class Footer extends Component {
     render() {
@@ -47,15 +49,15 @@ export default class Footer extends Component {
                 <div className={style.row1}>
                     <div className={style.col-3}>
                         <div className={cx(style.payments,style.pay)}>
-                            <a href="https://telegram.com" target="_blank"><img style={{width:'18px'}} src={telegram} /></a>
-                            <a href="https://facebook.com" target="_blank"><img style={{width:'18px'}} src={facebook} /></a>
-                            <a href="https://instagram.com" target="_blank"><img style={{width:'18px'}} src={instagram} /></a>
+                            <a href="https://t.me/IT_tower" target="_blank"><img style={{width:'18px'}} src={telegram} /></a>
+                            <a href="ittower01@gmail.com" target="_blank"><AlternateEmailIcon style={{width:'18px',opacity:'.7'}}  /></a>
+                            <a href="https://www.instagram.com/it_tower_academy/" target="_blank"><img style={{width:'18px'}} src={instagram} /></a>
                             <a href="https://youtube.com" target="_blank"><img style={{width:'18px'}} src={youtube} /></a>
                         </div>
                     </div>
                     <div className={style.col-3}>
                         <p>100011, Toshkent sh. Shayxontohur tum.,<br/> Zarqaynar ko'ch., 3B-uy</p>
-                        <button className={style.btn}>Biz bilan aloqa</button>
+                        <button className={style.btn}><Link to="contact">Biz bilan aloqa</Link></button>
                     </div>
                 </div>
                 <p className={style.footer}>© 2019 storm.uz<div className={style.line}></div>Personel Development Process LLC<div className={style.line}></div>Foydalanish shartlari</p>

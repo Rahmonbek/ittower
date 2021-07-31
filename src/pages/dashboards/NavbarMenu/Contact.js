@@ -37,7 +37,7 @@ export default function Contact() {
 
 
 
-     </Row>    <h2>Manzil: Toshkent shahar Yashnabot tuman zulfiyaxonim kocha 5-uy</h2>
+     </Row>    <h2 style={{paddingTop:'50px'}}>Manzil: Toshkent shahar Yashnabot tuman zulfiyaxonim kocha 5-uy</h2>
     </Card.Text>
 
   </Card.Body>
