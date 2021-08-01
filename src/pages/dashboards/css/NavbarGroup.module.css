@@ -3,6 +3,7 @@
     height: 70px;
     background-color: #F1F2F6;
     width: 100%;
+    background-attachment: fixed;
 
 }
 .navbarMenu ul{
