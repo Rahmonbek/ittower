@@ -5,7 +5,7 @@ import click from '../img/click.png'
 import cx from 'classnames'
 import upay from '../img/upay.png'
 import telegram from '../img/telegram.png'
-
+ 
 import instagram from '../img/instagram.png'
 import youtube from '../img/youtube.png'
 import { Link } from 'react-router-dom'
@@ -50,7 +50,7 @@ export default class Footer extends Component {
                     <div className={style.col-3}>
                         <div className={cx(style.payments,style.pay)}>
                             <a href="https://t.me/IT_tower" target="_blank"><img style={{width:'18px'}} src={telegram} /></a>
-                            <a href="ittower01@gmail.com" target="_blank"><AlternateEmailIcon style={{width:'18px',opacity:'.7'}}  /></a>
+                            <a href="ittower01@gmail.com" target="_blank"><AlternateEmailIcon   /></a>
                             <a href="https://www.instagram.com/it_tower_academy/" target="_blank"><img style={{width:'18px'}} src={instagram} /></a>
                             <a href="https://youtube.com" target="_blank"><img style={{width:'18px'}} src={youtube} /></a>
                         </div>
