@@ -8,6 +8,8 @@ import vektor3 from "../img/Vector3.png";
 import vektor4 from "../img/Vector4.png";
 import { Nav, Navbar, Button } from "react-bootstrap";
 import { NavLink, Link, BrowserRouter } from "react-router-dom";
+import { BiDesktop } from "react-icons/bi";
+import { RiFilePaper2Line } from "react-icons/ri";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 export default class Bosh3 extends Component {
@@ -18,21 +20,15 @@ export default class Bosh3 extends Component {
           <div className={stayle2.title} style={{ fontSize: "3vw" }}>
             Top kategoriyalar
           </div>
+
          
-          <BrowserRouter>
-            <Button className={stayle2.barchasi}>
-              <Link style={{ color: "white" }} to="/allcourse">
-                BARCHASI
-              </Link>
-            </Button>
-          </BrowserRouter>
 
           <Row
             style={{
               marginTop: "60px",
               marginBottom: "60px",
               marginRight: "60px",
-              marginLeft: "60px", 
+              marginLeft: "60px",
               textAlign: "center",
             }}
             lg={4}
@@ -45,22 +41,16 @@ export default class Bosh3 extends Component {
                   class="fa fa-television"
                   style={{ color: "#10C8A0", paddingRight: "15px" }}
                   aria-hidden="true"
-                ></i>
+                > <BiDesktop/></i>
                 Dasturlash
               </div>
             </Col>
             <Col>
               <div className={stayle2.c2}>
-                <img
-                  src={vektor}
-                  style={{
-                    width: "37px",
-                    height: "23px",
-                    paddingRight: "15px",
-                  }}
-                  alt="BigCo Inc. logo"
-                ></img>
-                Dizayn
+               <i style={{marginRight:'10px', color:'green'}}>
+                 <RiFilePaper2Line/>
+               </i>
+                Frond-End
               </div>
             </Col>
             <Col>
@@ -74,7 +64,7 @@ export default class Bosh3 extends Component {
                   }}
                   alt="BigCo Inc. logo"
                 ></img>
-                Biznes
+                Back-End
               </div>
             </Col>
             <Col>
@@ -88,57 +78,12 @@ export default class Bosh3 extends Component {
                   }}
                   alt="BigCo Inc. logo"
                 ></img>
-                Bugalteriya
+                Dizayn
               </div>
             </Col>
-            <Col>
-              <div className={stayle2.c5}>
-                <i
-                  class="fa fa-line-chart"
-                  style={{ color: "#10C8A0", paddingRight: "15px" }}
-                  aria-hidden="true"
-                ></i>
-                Marketing
-              </div>
-            </Col>
-            <Col>
-              <div className={stayle2.c6}>
-                <img
-                  src={vektor3}
-                  style={{
-                    width: "37px",
-                    height: "23px",
-                    paddingRight: "15px",
-                  }}
-                  alt="BigCo Inc. logo"
-                ></img>
-                Menejment
-              </div>
-            </Col>
-            <Col>
-              <div className={stayle2.c7}>
-                <img
-                  src={vektor4}
-                  style={{
-                    width: "37px",
-                    height: "23px",
-                    paddingRight: "15px",
-                  }}
-                  alt="BigCo Inc. logo"
-                ></img>
-                Xavsizlik
-              </div>
-            </Col>
-            <Col>
-              <div className={stayle2.c8}>
-                <i
-                  class="fa fa-heartbeat"
-                  style={{ color: "#10C8A0", paddingRight: "15px" }}
-                  aria-hidden="true"
-                ></i>
-                Salomatlik
-              </div>
-            </Col>
+         
+          
+           
           </Row>
 
           <Navbar bg="light" expand="lg">

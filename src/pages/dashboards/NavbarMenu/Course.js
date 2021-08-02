@@ -15,6 +15,7 @@ import Sertif from "../img/sertificate.jpg";
 import Staj from "../img/worked.jpg";
 import Result from "../img/result.png";
 import Win from "../img/winners.gif";
+import Footer from '../pages/Footer'
 
 export default function Course() {
   return (
@@ -236,6 +237,9 @@ export default function Course() {
           </div>
         </div>
       </Container>
+      <div>
+        <Footer/>
+      </div>
     </div>
   );
 }

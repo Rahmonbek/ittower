@@ -1,123 +1,334 @@
 import React, { Component } from "react";
-import { Col, Form, FormControl, InputGroup, Row } from "react-bootstrap";
-import stayle from "../css/Navbar.module.css";
+import {
+  Col,
+  Form,
+  FormControl,
+  InputGroup,
+  Container,
+  Row,
+} from "react-bootstrap";
+import { BsArrowRightShort } from "react-icons/bs";
+
+import styles from "../css/Navbar.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReactStars from "react-rating-stars-component";
+import { makeStyles } from "@material-ui/core/styles";
+import Rating from "@material-ui/lab/Rating";
+import Box from "@material-ui/core/Box";
 
-export default class Bosh1 extends Component {
-  render() {
-    const ratingChanged = (newRating) => {
-      console.log(newRating);
-    };
-    return (
-      <div>
-        <div id={stayle.all} expand="lg" className="mr-auto my-2 my-lg-0">
-          <div className={stayle.elips}></div>
-          <div style={{ width: "46%" }}>
-            <div className={stayle.dastur}>
-              <p style={{ fontWeight: "800", fontSize: "2.6vw" }}>
-                Biz sizga{" "}
-                <span
+const labels = {
+  0.5: "0.5",
+  1: "1",
+  1.5: "1.5",
+  2: "2",
+  2.5: "2.5",
+  3: "3",
+  3.5: "3.5",
+  4: "4",
+  4.5: "4.5",
+  5: "5",
+};
+
+const useStyles = makeStyles({
+  root: {
+    width: 200,
+    display: "flex",
+    alignItems: "center",
+  },
+});
+
+export default function Bosh1() {
+  const [value, setValue] = React.useState(2);
+  const [hover, setHover] = React.useState(-1);
+  const classes = useStyles();
+  const ratingChanged = (newRating) => {
+    console.log(newRating);
+  };
+  return (
+    <div className={styles.HeaderMenu}>
+      <div className={styles.ContainerMeHead}>
+        <div className={styles.TextHeaderMenu}>
+          <h1>
+            Biz sizga Dasturlash <br />
+            va boshqa <b style={{ color: "#FFD401" }}>Offline</b> va{" "}
+            <b style={{ color: "#FFD401" }}>Online</b> kurslarni taklif etamiz.
+          </h1>
+          <p>
+            Siz istalgan vaqtda har qanday mavzuda{" "}
+            <b style={{ color: "#FFD401" }}>Offline</b> va{" "}
+            <b style={{ color: "#FFD401" }}>Online</b> kurslarni o’rganishingiz
+            mumkin.
+          </p>
+        </div>
+        <div className={styles.CardMeHeader}>
+          <div className={styles.CircleYellow}>
+            <div id={styles.IdCardFirst}>
+
+              {/* First Cardme  Dasturlash */}
+
+              <div className={styles.CardMe1}>
+              <p
                   style={{
-                    color: "#e9e50a",
-                    fontWeight: "800",
-                    fontSize: "2.6vw",
+                    display: "flex",
+                    width: "100%",
+                    justifyContent: "space-between",
+                    marginLeft: "10px",
+                    marginTop: "20px",
                   }}
                 >
-                  Dasturlash
-                </span>
-                <br /> va yo`nalishlardagi ofline va online kurslarimizga taklif
-                qilamiz.
-              </p>
-              <span
-                style={{ fontWeight: "800", fontSize: "2.6vw", width: "100%" }}
-              ></span>
+                  <p
+                    style={{ backgroundColor: "#272948",}}
+                    className={styles.MarketingMeButton}
+                  >
+                    Back-End
+                  </p>
+                  <p style={{ display: "flex", marginRight: "30px" }}>
+                    <p style={{ fontWeight: "600" }}>500.000</p>
+                    <p
+                      style={{
+                        fontSize: "10px",
+                        color: "#9DA7BB",
+                        marginTop: "5px",
+                      }}
+                    >
+                      UZS
+                    </p>
+                  </p>
+                </p>
+                <p className={styles.CardTextMeTime}>
+                  <p>
+                    Python yadrosi, Python
+                    <br /> Django, API{" "}
+                    <b style={{ fontSize: "14px", color: "#9DA7BB" }}>
+                      | 48 soat
+                    </b>
+                  </p>
+                </p>
+                <p className={styles.StaringGroupME}>
+                  <div className={classes.root}>
+                    <Rating
+                      name="hover-feedback"
+                      value={value}
+                      precision={0.5}
+                      onChange={(event, newValue) => {
+                        setValue(newValue);
+                      }}
+                      onChangeActive={(event, newHover) => {
+                        setHover(newHover);
+                      }}
+                    />
+                    {value !== null && (
+                      <Box ml={2}>{labels[hover !== -1 ? hover : value]}</Box>
+                    )}
+                  </div>
+                  <div className={styles.NextTime}>
+                    <i>
+                      <BsArrowRightShort />
+                    </i>
+                  </div>
+                </p>
+              </div>
+             
+             {/* Second Cardme Frond-End */}
+
+              <div id={styles.CardMeFrondEnd} className={styles.CardMe2}>
+                <p
+                  style={{
+                    display: "flex",
+                    width: "100%",
+                    justifyContent: "space-between",
+                    marginLeft: "10px",
+                    marginTop: "20px",
+                  }}
+                >
+                  <p
+                    style={{ backgroundColor: "#37375F" }}
+                    className={styles.MarketingMeButton}
+                  >
+                    Frond-End
+                  </p>
+                  <p style={{ display: "flex", marginRight: "30px" }}>
+                    <p style={{ fontWeight: "600" }}>500.000</p>
+                    <p
+                      style={{
+                        fontSize: "10px",
+                        color: "#9DA7BB",
+                        marginTop: "5px",
+                      }}
+                    >
+                      UZS
+                    </p>
+                  </p>
+                </p>
+                <p className={styles.CardTextMeTime}>
+                  <p>
+                    HTML, CSS Bootstrap , JavaScript
+                    <br /> Jquery Ajax,{" "}
+                    <b style={{ fontSize: "14px", color: "#9DA7BB" }}>
+                      | 48 soat
+                    </b>
+                  </p>
+                </p>
+                <p className={styles.StaringGroupME}>
+                  <div className={classes.root}>
+                    <Rating
+                      name="hover-feedback"
+                      value={value}
+                      precision={0.5}
+                      onChange={(event, newValue) => {
+                        setValue(newValue);
+                      }}
+                      onChangeActive={(event, newHover) => {
+                        setHover(newHover);
+                      }}
+                    />
+                    {value !== null && (
+                      <Box ml={2}>{labels[hover !== -1 ? hover : value]}</Box>
+                    )}
+                  </div>
+                  <div className={styles.NextTime}>
+                    <i>
+                      <BsArrowRightShort />
+                    </i>
+                  </div>
+                </p>
+              </div>
             </div>
 
-            <div style={{ color: "white" }} className={stayle.dastur1}>
-              Siz istalgan vaqtda har qanday mavzuda kurslarni o’rganishingiz
-              mumkin.
+                      
+
+
+            <div className={styles.CardThirdFour}
+            
+            >
+
+              {/* Third CardMe  Back-End*/}
+
+              <div className={styles.CardMe3}>
+              <p
+                  style={{
+                    display: "flex",
+                    width: "100%",
+                    justifyContent: "space-between",
+                    marginLeft: "10px",
+                    marginTop: "20px",
+                  }}
+                >
+                  <p
+                    style={{ backgroundColor: "#10C8A0" }}
+                    className={styles.MarketingMeButton}
+                  >
+                    Dasturlash
+                  </p>
+                  <p style={{ display: "flex", marginRight: "30px" }}>
+                    <p style={{ fontWeight: "600" }}>500.000</p>
+                    <p
+                      style={{
+                        fontSize: "10px",
+                        color: "#9DA7BB",
+                        marginTop: "5px",
+                      }}
+                    >
+                      UZS
+                    </p>
+                  </p>
+                </p>
+                <p className={styles.CardTextMeTime}>
+                  <p>
+                    Frond-End va Back-End bo'yicha <br /> to'liq kurs{" "}
+                    <b style={{ fontSize: "14px", color: "#9DA7BB" }}>
+                      | 48 soat
+                    </b>
+                  </p>
+                </p>
+                <p className={styles.StaringGroupME}>
+                  <div className={classes.root}>
+                    <Rating
+                      name="hover-feedback"
+                      value={value}
+                      precision={0.5}
+                      onChange={(event, newValue) => {
+                        setValue(newValue);
+                      }}
+                      onChangeActive={(event, newHover) => {
+                        setHover(newHover);
+                      }}
+                    />
+                    {value !== null && (
+                      <Box ml={2}>{labels[hover !== -1 ? hover : value]}</Box>
+                    )}
+                  </div>
+                  <div className={styles.NextTime}>
+                    <i>
+                      <BsArrowRightShort />
+                    </i>
+                  </div>
+                </p>
+               
+              </div>
+            
+            {/* Fourth CardMe Marketing */}
+
+              <div style={{ marginLeft: "20px" }} className={styles.CardMe4}>
+                <p
+                  style={{
+                    display: "flex",
+                    width: "100%",
+                    justifyContent: "space-between",
+                    marginLeft: "10px",
+                    marginTop: "20px",
+                  }}
+                >
+                  <p className={styles.MarketingMeButton}>Marketing</p>
+                  <p style={{ display: "flex", marginRight: "30px" }}>
+                    <p style={{ fontWeight: "600" }}>500.000</p>
+                    <p
+                      style={{
+                        fontSize: "10px",
+                        color: "#9DA7BB",
+                        marginTop: "5px",
+                      }}
+                    >
+                      UZS
+                    </p>
+                  </p>
+                </p>
+                <p className={styles.CardTextMeTime}>
+                  <p>
+                    Raqamli marketing bo'yicha <br /> to'liq kurs{" "}
+                    <b style={{ fontSize: "14px", color: "#9DA7BB" }}>
+                      | 48 soat
+                    </b>
+                  </p>
+                </p>
+                <p className={styles.StaringGroupME}>
+                  <div className={classes.root}>
+                    <Rating
+                      name="hover-feedback"
+                      value={value}
+                      precision={0.5}
+                      onChange={(event, newValue) => {
+                        setValue(newValue);
+                      }}
+                      onChangeActive={(event, newHover) => {
+                        setHover(newHover);
+                      }}
+                    />
+                    {value !== null && (
+                      <Box ml={2}>{labels[hover !== -1 ? hover : value]}</Box>
+                    )}
+                  </div>
+                  <div className={styles.NextTime}>
+                    <i>
+                      <BsArrowRightShort />
+                    </i>
+                  </div>
+                </p>
+              </div>
             </div>
           </div>
-
-          <Row
-            style={{ marginTop: "100px", width: "50%" }}
-            xs={1}
-            lg={2}
-            md={1}
-            sm={1}
-          >
-            <Col>
-              <div className={stayle.card1}>
-                <div className={stayle.card11}>Marketting</div>
-                <div className={stayle.som1}>
-                  500.000<span>UZS</span>
-                </div>
-                <div className={stayle.Sharx1}>
-                  Raqamli marketing bo'yicha to'liq kurs<span>|48 soat</span>
-                </div>
-                <div style={{ display: "flex" }} className={stayle.star1}>
-                  <ReactStars
-                    count={5}
-                    onChange={ratingChanged}
-                    size={24}
-                    activeColor="#ffd700"
-                  />
-                  <div className={stayle.top1}>
-                    4.1 <span>(560)</span>
-                  </div>
-                </div>
-              </div>
-            </Col>
-            <Col>
-              <div className={stayle.card2}>
-                <div className={stayle.card12}>Dasturlash</div>
-                <div className={stayle.som2}>
-                  500.000<span>UZS</span>
-                </div>
-                <div className={stayle.Sharx2}>
-                  Java Spring bo’yicha to’liq kurs(amaliy)<span>|64 soat</span>
-                </div>
-                <div style={{ display: "flex" }} className={stayle.star1}>
-                  <ReactStars
-                    count={5}
-                    onChange={ratingChanged}
-                    size={24}
-                    activeColor="#ffd700"
-                  />
-                  <div className={stayle.top1}>
-                    4.1 <span>(560)</span>
-                  </div>
-                </div>
-              </div>
-            </Col>
-            <Col>
-              <div className={stayle.card3}>
-                <div className={stayle.card13}>Dizayn</div>
-                <div className={stayle.som3}>
-                  500.000<span>UZS</span>
-                </div>
-                <div className={stayle.Sharx3}>
-                  Illustrator 0 dan professionalgacha to’liq kurs)
-                  <span>|72 soat</span>
-                </div>
-                <div style={{ display: "flex" }} className={stayle.star1}>
-                  <ReactStars
-                    count={5}
-                    onChange={ratingChanged}
-                    size={24}
-                    activeColor="#ffd700"
-                  />
-
-                  <div className={stayle.top1}>
-                    4.1 <span>(560)</span>
-                  </div>
-                </div>
-              </div>
-            </Col>
-          </Row>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }

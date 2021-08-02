@@ -16,7 +16,7 @@ export default function NavbarGroup() {
             <Navbar className={menyu.navbarMenu} collapseOnSelect expand="lg">
               <Container>
               <Navbar.Brand style={{width:'65px', height:'65px'}} href="#home">
-                  <img style={{width:'100%',height:'100%'}} src={Logo} />
+                  <img className={menyu.BrandImgMe} style={{width:'100%',height:'100%'}} src={Logo} />
               </Navbar.Brand>
 
                 <Navbar.Toggle
