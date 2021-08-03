@@ -5,20 +5,35 @@ width: 100%;
 height: auto;
 
 
-}
+} 
 .title{
-align-items: center;
-padding-top: 24px;
-border-radius: nullpx;
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.title p{
+    
 font-family: SF Pro Display;
 font-size: 30px;
 line-height: 36px;
-letter-spacing: 0em;
+/* identical to box height */
+
 text-align: center;
+
+/* black */
+
 color: #2E2E2E;
 
 }
+.RowMeTop{
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 30px;
 
+}
 
 .barchasi{
     padding-top: 2px;
@@ -142,4 +157,70 @@ width: 90px;
 height: 24px;
 left: 244px;
 top: 370px;
+}
+#NavbarMenuUl{
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.Navbar{
+    border: 1px solid black;
+    margin: auto;
+    text-align:center;
+    background-color: #16a085;
+}
+.ContainerMenu{
+    border:1px solid black;
+    width:100%;
+}
+
+@media(min-width:768px) and (max-width:1023px){
+    .NavbarMenu{
+        color: red;
+        background-color: white;
+        border: none;
+    
+    }
+    #NavbarMenuUl{
+        z-index: 1;
+        color: white;
+        border-radius: 4px;
+        position: absolute;
+        width: 200px;
+        height: 210px;
+        overflow-x: hidden;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #1E1E1E;
+    
+    }
+}
+@media(max-width:767px) {
+    .NavbarMenu{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+    .RowMeTop{
+        text-align: center;
+        border: 1px solid red;
+    }
+    .c1{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #NavbarMenuUl{
+        z-index: 1;
+        color: white;
+        border-radius: 4px;
+        position: absolute;
+        width: 200px;
+        height: 210px;
+        margin: auto;
+        overflow-x: hidden;
+        background-color: #1E1E1E;
+    
+    }
+    
 }

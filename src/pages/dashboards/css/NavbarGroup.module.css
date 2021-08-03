@@ -13,19 +13,23 @@
     height: 70px;
     
 }
-
+ 
 
 
 @media (max-width: 767px){
+    .navbarMenu{
+        border: 1px solid black;
+        display: flex;
+    }
     .navbarToggle{
-     margin-top: -10px;
-     margin-left: 280px;
+     margin-top: -70px;
+     margin-left: 20px;
      justify-content: end;
      
     }
     .BrandImgMe{
         margin: auto;
-        margin-top:-5px
+        margin-top:-60px
     }
     .navbarCollapse li{
         margin: auto;
@@ -61,6 +65,7 @@
     .BrandImgMe{
         margin-top: -5px;
     }
+  
     .navbarToggle{
         margin-top: -10px;
         margin-left: 400px;

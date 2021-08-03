@@ -254,6 +254,23 @@ box-shadow: 0px 2px 2px 0px #0000001A;
      
     
     }
+    .CardPriceTimeDesign{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        
+    }
+    @media(min-width:768px) and (max-width:1023px){
+        .CardTextFrond{
+            font-size: 14px;
+            font-weight: bolder;
+        }
+        
+    }
+    @media (max-width:767px){
+        .CardPriceTimeDesign{
+        }
+    }
 
 
 

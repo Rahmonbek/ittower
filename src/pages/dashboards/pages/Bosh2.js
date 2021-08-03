@@ -33,10 +33,17 @@ export default class Bosh2 extends Component {
                 <Card.Body>
                   <Card.Title className={stayle1.name1}>
                     {" "}
-                    <b style={{marginLeft:'-18px'}}> Java Course, JavaOOp, JavaFx, Java  Spring Development, Database Development</b>
+                    <b style={{ marginLeft: "-18px" }}>
+                      {" "}
+                      Java Course, JavaOOp, JavaFx, Java Spring Development,
+                      Database Development
+                    </b>
                   </Card.Title>
                   <Card.Text>
-                    <div className={stayle1.star1} style={{ display: "flex",marginLeft:'-28px' }}>
+                    <div
+                      className={stayle1.star1}
+                      style={{ display: "flex", marginLeft: "-28px" }}
+                    >
                       <ReactStars
                         count={5}
                         onChange={ratingChanged}
@@ -50,16 +57,17 @@ export default class Bosh2 extends Component {
                     <div
                       style={{
                         display: "flex",
-                        justifyContent:'space-between',
-                        marginTop:'80px'
-                       
+                        justifyContent: "space-between",
+                        marginTop: "80px",
                       }}
                     >
-                      <div >
+                      <div>
                         <div style={{ fontSize: "14px", opacity: "0.7" }}>
                           Kurs hajmi
                         </div>
-                        <div style={{ fontSize: "18px" }}><b>42 soat</b></div>
+                        <div style={{ fontSize: "18px" }}>
+                          <b>42 soat</b>
+                        </div>
                       </div>
                       <div style={{ textAlign: "center", paddingLeft: "90px" }}>
                         <div style={{ fontSize: "14px", opacity: "0.7" }}>
@@ -91,12 +99,16 @@ export default class Bosh2 extends Component {
                   style={{ height: "188px" }}
                   src={images2}
                 />
-                 <div className={stayle1.card13}>Dizayn</div>
+                <div className={stayle1.card13}>Dizayn</div>
                 <Card.Body>
                   <Card.Title className={stayle1.name2}>
-                    <b style={{marginLeft:'-18px'}}> Illustrator boshlang’ichdan proffessionalgacha Ta'lim <br/> beramiz</b>
+                    <b style={{ marginLeft: "-18px" }}>
+                      {" "}
+                      Illustrator boshlang’ichdan proffessionalgacha to'liq
+                      kafolat beramiz
+                    </b>
                   </Card.Title>
-                  <Card.Text >
+                  <Card.Text>
                     <div className={stayle1.star2} style={{ display: "flex" }}>
                       <ReactStars
                         count={5}
@@ -106,26 +118,22 @@ export default class Bosh2 extends Component {
                       />
                       <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
                     </div>
-                   
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent:'space-between',
-                        marginTop:'80px'                        
-                      }}
-                    >
-                      <div >
+
+                    <div className={stayle1.CardPriceTimeDesign}>
+                      <div>
                         <div style={{ fontSize: "14px", opacity: "0.7" }}>
                           Kurs hajmi
                         </div>
-                        <div style={{ fontSize: "18px" }}><b>42 soat</b></div>
+                        <div style={{ fontSize: "18px" }}>
+                          <b>42 soat</b>
+                        </div>
                       </div>
                       <div style={{ textAlign: "center", paddingLeft: "90px" }}>
                         <div style={{ fontSize: "14px", opacity: "0.7" }}>
                           Kurs narxi
                         </div>
                         <div style={{ fontSize: "18px" }}>
-                        <b>500.000</b>
+                          <b>500.000</b>
                           <span
                             style={{
                               paddingLeft: "5px",
@@ -161,7 +169,6 @@ export default class Bosh2 extends Component {
                         Python yadrosi, Python Telegram boti, Django, API, Git /
                         Github
                       </b>
-                     
                     </Card.Title>
                     <Card.Text>
                       <div
@@ -233,11 +240,10 @@ export default class Bosh2 extends Component {
                   />
                   <Card.Body>
                     <Card.Title className={stayle1.title1}>
-                      <b>
+                      <b className={stayle1.CardTextFrond}>
                         HTML, CSS Bootstrap , JavaScript, Ajax, React , React
                         Native , React Hook Material UI, Redux API
                       </b>
-                     
                     </Card.Title>
                     <Card.Text>
                       <div
@@ -313,7 +319,6 @@ export default class Bosh2 extends Component {
                         Python yadrosi, Python Telegram boti, Django, API, Git /
                         Github
                       </b>
-                     
                     </Card.Title>
                     <Card.Text>
                       <div

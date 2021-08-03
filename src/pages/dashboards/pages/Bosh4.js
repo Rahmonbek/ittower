@@ -1,19 +1,20 @@
 import React, { Component } from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import styles from '../css/Bosh4.module.css'
 
 export default class Bosh4 extends Component {
   render() {
     return (
       <div>
         <Navbar bg="light" expand="lg">
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Toggle className={styles.NavbarMenu} aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="mr-auto my-2 my-lg-0"
               style={{ maxHeight: "100px" }}
               navbarScroll
-            >
+            > 
               <Nav.Link href="#action1">
                 <NavLink
                   style={{

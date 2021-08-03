@@ -101,14 +101,20 @@ margin-left: 35px;
 @media (min-width:768px) and (max-width:1024px){
     .TextMeCenter{
         width: 100%;
+        margin-top: 10px;
     }
     .standUpClose{
         margin-top: 180px;
+    }
+    .CardTextFrond{
+        font-size: 15px;
     }
 }
 @media (max-width:767px){
     .TextMeCenter{
         width: 100%;
+        margin-top: 10px;
+
     }
     .standUpInText{
         font-size: 30px;
