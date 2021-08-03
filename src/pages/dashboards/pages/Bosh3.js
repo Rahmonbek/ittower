@@ -1,13 +1,12 @@
-import React, { Component, Redirect } from "react";
+import React, { Component } from "react";
 import { Col, Row } from "react-bootstrap";
 import stayle2 from "../css/Navbar2.module.css";
-import vektor from "../img/Vector.png";
+
 import vektor1 from "../img/vector1.png";
 import vektor2 from "../img/Vector2.png";
-import vektor3 from "../img/Vector3.png";
-import vektor4 from "../img/Vector4.png";
-import { Nav, Navbar, Button } from "react-bootstrap";
-import { NavLink, Link, BrowserRouter } from "react-router-dom";
+
+import { Nav, Navbar } from "react-bootstrap";
+import { NavLink  } from "react-router-dom";
 import { BiDesktop } from "react-icons/bi";
 import { RiFilePaper2Line } from "react-icons/ri";
 
@@ -91,7 +90,7 @@ export default class Bosh3 extends Component {
             <Navbar.Collapse id="navbarScroll">
               <Nav
                 className="mr-auto my-2 my-lg-0"
-                style={{ maxHeight: "100px" }}
+                style={{margin:'auto',textAlign:'center', maxHeight: "100px" }}
                 navbarScroll
               >
                 <Nav.Link href="#action1">
@@ -110,6 +109,7 @@ export default class Bosh3 extends Component {
                 <Nav.Link href="#action1">
                   <NavLink
                     style={{
+                      marginLeft:'40px',
                       textDecoration: "none",
                       fontSize: "22px",
                       color: "#9DA7BB",
@@ -123,6 +123,7 @@ export default class Bosh3 extends Component {
                 <Nav.Link href="#action1">
                   <NavLink
                     style={{
+                      marginLeft:'40px',
                       textDecoration: "none",
                       fontSize: "22px",
                       color: "#9DA7BB",
@@ -130,12 +131,13 @@ export default class Bosh3 extends Component {
                     activeStyle={{ color: "#010101" }}
                     to="/marketing"
                   >
-                    Marketing
+                    Back-End
                   </NavLink>
                 </Nav.Link>
                 <Nav.Link href="#action1">
                   <NavLink
                     style={{
+                      marginLeft:'40px',
                       textDecoration: "none",
                       fontSize: "22px",
                       color: "#9DA7BB",
@@ -143,61 +145,13 @@ export default class Bosh3 extends Component {
                     activeStyle={{ color: "#010101" }}
                     to="/biznes"
                   >
-                    Biznes
+                    Front-End
                   </NavLink>
                 </Nav.Link>
-                <Nav.Link href="#action1">
-                  <NavLink
-                    style={{
-                      textDecoration: "none",
-                      fontSize: "22px",
-                      color: "#9DA7BB",
-                    }}
-                    activeStyle={{ color: "#010101" }}
-                    to="/salomatlik"
-                  >
-                    Salomatlik
-                  </NavLink>
-                </Nav.Link>
-                <Nav.Link href="#action1">
-                  <NavLink
-                    style={{
-                      textDecoration: "none",
-                      fontSize: "22px",
-                      color: "#9DA7BB",
-                    }}
-                    activeStyle={{ color: "#010101" }}
-                    to="/menejment"
-                  >
-                    Menejment
-                  </NavLink>
-                </Nav.Link>
-                <Nav.Link href="#action1">
-                  <NavLink
-                    style={{
-                      textDecoration: "none",
-                      fontSize: "22px",
-                      color: "#9DA7BB",
-                    }}
-                    activeStyle={{ color: "#010101" }}
-                    to="/buxgalteriya"
-                  >
-                    Buxgalteriya
-                  </NavLink>
-                </Nav.Link>
-                <Nav.Link href="#action1">
-                  <NavLink
-                    style={{
-                      textDecoration: "none",
-                      fontSize: "22px",
-                      color: "#9DA7BB",
-                    }}
-                    activeStyle={{ color: "#010101" }}
-                    to="/tarmoq"
-                  >
-                    Tarmoq
-                  </NavLink>{" "}
-                </Nav.Link>
+           
+               
+                
+              
               </Nav>
             </Navbar.Collapse>
           </Navbar>

@@ -13,6 +13,9 @@
     height: 70px;
     
 }
+
+
+
 @media (max-width: 767px){
     .navbarToggle{
      margin-top: -10px;
@@ -36,12 +39,11 @@
           margin-top: 50px;
 
     }
-    .navbarCollapse{
-        margin-left: -320px;
-        margin-top: 20px;
+    .navbarCollapse{ 
+        margin-top:-40px;
+        margin-left: 200px;
         width: 200px;
        text-align: center;
-    
         background-color: #1E1E1E;
         border-radius: 10px;
         z-index: 1;

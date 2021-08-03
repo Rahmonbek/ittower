@@ -4,10 +4,7 @@ import Dasturlash from './Dasturlash'
 import Dizayn from './Dizayn'
 import Marketing from './Marketing'
 import Biznes from './Biznes'
-import Salomatlik from './Salomatlik'
-import Menejment from './Menejment'
-import Buxgalteriya from './Buxgalteriya'
-import Tarmoq from './Tarmoq'
+
 import Bosh4 from '../Bosh3'
 export default class About extends Component {
     render() {
@@ -19,7 +16,6 @@ export default class About extends Component {
        <Route exact path="/dasturlash">
        <Dasturlash/>
                    </Route>
-              
                    <Route exact path="/dizayn">
                        <Dizayn/>
                    </Route>
@@ -28,18 +24,6 @@ export default class About extends Component {
                    </Route>
                    <Route exact path="/biznes">
                        <Biznes/>
-                   </Route>
-                   <Route exact path="/salomatlik">
-                       <Salomatlik/>
-                   </Route>
-                   <Route exact path="/menejment">
-                       <Menejment/>
-                   </Route>
-                   <Route exact path="/buxgalteriya">
-                       <Buxgalteriya/>
-                   </Route>
-                   <Route exact path="/tarmoq">
-                       <Tarmoq/>
                    </Route>
        </Switch> </BrowserRouter> 
             </div>
