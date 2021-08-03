@@ -9,8 +9,8 @@ height: auto;
 .title{
     margin: auto;
     width: 100%;
-    border: 1px solid black;
     text-align: center;
+    margin: 20px;
     
 }
 .title p{
@@ -21,6 +21,7 @@ line-height: 36px;
 /* identical to box height */
 
 text-align: center;
+margin-top: 20px;
 
 /* black */
 
@@ -30,7 +31,6 @@ color: #2E2E2E;
 .RowMeTop{
     width: 100%;
     margin: auto;
-    border: 1px solid black;
     margin-bottom: 30px;
 
 }
@@ -44,7 +44,6 @@ color: #2E2E2E;
     right: 24px;
     top: 24px;
     border-radius: 4px;
-    border: 1px solid #536DFD
 }
 .c1{
     padding-top: 10px;
@@ -164,13 +163,11 @@ top: 370px;
     
 }
 .Navbar{
-    border: 1px solid black;
     margin: auto;
     text-align:center;
     background-color: #16a085;
 }
 .ContainerMenu{
-    border:1px solid black;
     width:100%;
 }
 
@@ -203,7 +200,6 @@ top: 370px;
     }
     .RowMeTop{
         text-align: center;
-        border: 1px solid red;
     }
     .c1{
         margin: auto;

@@ -18,7 +18,6 @@
 
 @media (max-width: 767px){
     .navbarMenu{
-        border: 1px solid black;
         display: flex;
     }
     .navbarToggle{
@@ -41,12 +40,13 @@
     }
     .navbarMenu ul{
           margin-top: 50px;
+          
 
     }
     .navbarCollapse{ 
-        margin-top:-40px;
-        margin-left: 200px;
         width: 200px;
+      justify-content: start;   
+      margin-left: -100px;     
        text-align: center;
         background-color: #1E1E1E;
         border-radius: 10px;

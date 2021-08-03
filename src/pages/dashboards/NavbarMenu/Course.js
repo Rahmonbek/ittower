@@ -2,10 +2,9 @@ import React from "react";
 import styles from "../css/Course.module.css";
 import { Container, Row, Col, CardGroup, Card } from "react-bootstrap";
 import Head1 from "../img/Head.jpg";
-import Head3 from "../img/Head3.png";
+import Head3 from "../img/brand1.jpg";
 import Card1 from "../img/Card1.jpg";
 import Card2 from "../img/Card2.jpg";
-import { BiLaptop } from "react-icons/bi";
 import LaptopMacOutlinedIcon from "@material-ui/icons/LaptopMacOutlined";
 import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
 import { FaUniversity } from "react-icons/fa";
@@ -15,30 +14,41 @@ import Sertif from "../img/sertificate.jpg";
 import Staj from "../img/worked.jpg";
 import Result from "../img/result.png";
 import Win from "../img/winners.gif";
-import Footer from '../pages/Footer'
+import Footer from "../pages/Footer";
 
 export default function Course() {
   return (
     <div className={styles.HeaderMenu}>
-      <Container>
+     
         <div className={styles.BodyMenu}>
           <div className={styles.CoureselImg}>
-            <h1
-              style={{ textTransform: "uppercase" }}
-              className={styles.TextMe}
-            >
-              DASTURLASHNI{" "}
-              <div>
-                QULAY <span style={{ color: "#00B533" }}>MUHITDA</span>{" "}
-              </div>
-              O‘RGANING
-            </h1>
-            <p>
+            <p className={styles.TextMeGroup}>
+              <h1
+                style={{ textTransform: "uppercase" }}
+                className={styles.TextMe}
+              >
+                DASTURLASHNI{" "}
+                <div>
+                  QULAY <span style={{ color: "#00B533" }}>MUHITDA</span>{" "}
+                </div>
+                O‘RGANING
+              </h1>
+              {/* <p className={styles.TextMeSmall}>
+                It-Tower sizga ishonchli va sifatli ta'limni kafolatlaydi.
+              </p> */}
+              <p className={styles.TextMeSmall}>
+                It-Tower sizga ishonchli va sifatli
+                <b style={{ color: "#00B533" }}> Offline </b> va{" "}
+                <b style={{ color: "#00B533" }}> Online </b> kurslarni taklif
+                etadi.
+              </p>
+            </p>
+            <p className={styles.ImgMeHead}>
               <img className={styles.Rasm1} src={Head1} />
-              <img className={styles.Rasm} src={Head3} />
+              <img class="img-fluid" className={styles.Rasm} src={Head3} />
             </p>
           </div>
-
+          <Container>
           <div className={styles.CardGroupHead}>
             <div className={styles.CardGroupBody}>
               <Card className={styles.CardMe}>
@@ -235,10 +245,11 @@ export default function Course() {
               </div>
             </div>
           </div>
+          </Container>
         </div>
-      </Container>
+      
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

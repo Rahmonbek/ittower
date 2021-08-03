@@ -59,7 +59,7 @@ text-align: left;
 }
 .TextMeCenter{
     display: flex;
-    width: 80%;
+    width:88%;
     color: white;
     position: relative;
     margin: auto;
@@ -70,7 +70,7 @@ text-align: left;
 .standUpInText{
     
 font-family: SF Pro Display;
-font-size: 40px;
+font-size: 43px;
 line-height: 48px;
 color: #FFFFFF;
 margin-top: 20px;
@@ -78,18 +78,18 @@ margin-left: 35px;
 }
 .standUpOpen{
     margin-top: -100px;
-    font-weight: 900;
-    font-size: 95px;
+    font-weight: 700;
+    font-size: 80px;
 }
 .standUpClose{
-    font-weight: 900;
-    font-size: 95px;
+    font-weight: 700;
+    font-size: 80px;
     margin-top: 50px;
 }
 .StivName{
-    text-align: start;
-    margin-left: 0px;
-    margin-top: 20px;
+    text-align: end;
+    
+    margin-top: 30px;
     font-size: 25px;
 }
 .TextMeCenterUp{

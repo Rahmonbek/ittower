@@ -45,7 +45,7 @@ export default class Bosh6 extends Component {
                       fontSize: "18px",
                     }}
                   >
-                    Tahir
+                    <b>Ismoilov Rahmonbek</b>
                   </p>
                   <p
                     style={{
@@ -54,7 +54,7 @@ export default class Bosh6 extends Component {
                       fontSize: "18px",
                     }}
                   >
-                    Senior Designer
+                    Senior Developer
                   </p>
 
                   <p style={{ color: "black", textAlign: "center" }}>
@@ -77,7 +77,7 @@ export default class Bosh6 extends Component {
                       fontSize: "18px",
                     }}
                   >
-                    Tahir
+                    <b>Xayitov Murodilla</b>
                   </p>
                   <p
                     style={{
@@ -86,7 +86,7 @@ export default class Bosh6 extends Component {
                       fontSize: "18px",
                     }}
                   >
-                    Senior Designer
+                    Senior Developer
                   </p>
 
                   <p style={{ color: "black", textAlign: "center" }}>
@@ -110,7 +110,7 @@ export default class Bosh6 extends Component {
                       fontSize: "18px",
                     }}
                   >
-                    Ted Howard
+                    Abbosbek
                   </p>
                   <p
                     style={{
@@ -119,7 +119,7 @@ export default class Bosh6 extends Component {
                       fontSize: "18px",
                     }}
                   >
-                    Senior Designer
+                    Senior Developer
                   </p>
 
                   <p style={{ color: "black", textAlign: "center" }}>

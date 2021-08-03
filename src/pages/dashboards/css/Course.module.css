@@ -7,7 +7,7 @@
 .HeaderMenu{
     width: 100%;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 40px;
 }
 .BodyMenu{
@@ -15,26 +15,46 @@
 
 }
 .CoureselImg{
-    height: 400px;
+    width: 90%;
+    height: 600px;
     display: flex;
     justify-content: space-between;
     background-color: #F8F8F8;
     border-radius: 5px;
+    margin: auto;
+    
 }
-.CoureselImg img{
-    width: 100%;
+
+
+.TextMeGroup{
+    width: 55%;
     height: 100%;
-}
-.Rasm{
-    width: 500px;
+
 }
 .TextMe{
+    width: 100%;
+    margin-left: 20px;
     font-size: 60px;
     line-height: 110px;
     font-weight: 700;
+    
 
 }
-.CardGroupHead{
+.TextMeSmall{
+    width: 70%;
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.ImgMeHead{
+    width: 45%;
+    height: 100%;
+    
+}
+.Rasm{
+   
    
 }
 .CardGroupBody{
@@ -165,6 +185,10 @@
 }
 
 @media (max-width:767px){
+    .CoureselImg{
+        width: 100%;
+        border: 1px solid black;
+    }
     .TextMe{
         display: block;
         height: 100%;
@@ -209,19 +233,50 @@
     display: none;
 }
 @media (min-width:768px) and (max-width:1023px){
+    .CoureselImg{
+        border: 1px solid black;
+        width: 90%;
+         height: 600px;
+
+        
+    }
     .TextMe{
         display: block;
-        width: 50%;
+        width: 40%;
         font-size: 40px;
         line-height: 80px;
+        
+    }
+    .ImgMeHead{
+        width: 60%;
     }
     .Rasm{
-        display: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }
     .Rasm1{
-        display: block;
+        display: none;
     }
 
    
+
+}
+@media (min-width:1023px) and (max-width:1300px){
+    .CoureselImg{
+        width: 100%;
+        border: 1px solid black;
+    }
+    .TextMe{
+        display: block;
+        width: 40%;
+        font-size: 40px;
+        line-height: 80px;
+    }
+    .ImgMeHead{
+        width: 60%;
+    }
+
 
 }

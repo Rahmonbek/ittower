@@ -17,7 +17,7 @@ export default class Bosh3 extends Component {
       <div>
         <div className={stayle2.bosh}>
           <div className={stayle2.title}>
-            <p> Top kategoriyalar</p>
+            <p > Top kategoriyalar</p>
           </div>
 
           <Row className={stayle2.RowMeTop} lg={4} md={2} sm={1}>
@@ -67,7 +67,7 @@ export default class Bosh3 extends Component {
                   }}
                   alt="BigCo Inc. logo"
                 ></img>
-                Design-Me
+                Design
               </div>
             </Col>
           </Row>
@@ -85,7 +85,7 @@ export default class Bosh3 extends Component {
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#9DA7BB",
+                        color: "#0F1F27",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/dasturlash"
@@ -96,18 +96,18 @@ export default class Bosh3 extends Component {
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#9DA7BB",
+                        color: "#0F1F27",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/dizayn"
                     >
-                      Dizayn
+                      Frond-End
                     </NavLink>
                     <NavLink
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#9DA7BB",
+                        color: "#0F1F27",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/marketing"
@@ -118,12 +118,12 @@ export default class Bosh3 extends Component {
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#9DA7BB",
+                        color: "#0F1F27",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/biznes"
                     >
-                      Front-End
+                      Design
                     </NavLink>
                   </Nav>
                 </Navbar.Collapse>
