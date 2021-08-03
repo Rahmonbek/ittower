@@ -19,6 +19,7 @@ export default class About extends Component {
        <Route exact path="/dasturlash">
        <Dasturlash/>
                    </Route>
+              
                    <Route exact path="/dizayn">
                        <Dizayn/>
                    </Route>
