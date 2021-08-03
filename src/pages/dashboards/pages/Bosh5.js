@@ -23,17 +23,7 @@ export default class Bosh5 extends Component {
             </div>
           </Container>
 
-          <img
-            style={{
-              fontSize: "3vw",
-              width: "5%",
-              height: "6%",
-              position: "absolute",
-              right: "80px",
-              bottom: "80px",
-            }}
-            src={images3}
-          />
+         
         </div>
       </div>
     );
