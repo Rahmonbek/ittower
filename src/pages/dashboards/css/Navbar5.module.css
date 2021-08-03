@@ -17,22 +17,16 @@ color: #2E2E2E;
 a{
     text-decoration:solid;
 }
-a:link {
-    color: red;
-  }
-  a:visited {
-    color: rgb(69, 99, 109);
-  }
+
+
   
   a:hover {
-      scale:1.1;
-    text-shadow:0px 2px 5px rgb(197, 184, 6);
+      color: black;
   }
+     
   
 
-  a:active {
-    color: blue;
-  }
+ 
 .all{
  align-items: center; 
     width:100%;

@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Card,Button, Container, Row,Col } from 'react-bootstrap'
 import stayle1 from '../../css/Navbar3.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import images1 from '../../img/image1.png'
-import images2 from '../../img/image2.png'
+import images1 from '../../img/cpes3.jpg'
+import images2 from '../../img/cpes5.jpeg'
 import ReactStars from "react-rating-stars-component";
 
 export default class Dasturlash extends Component {
@@ -40,7 +40,7 @@ kurs. (amaliy)</Card.Title>
 </div>
 <div style={{textAlign:'center',paddingLeft:'60px',paddingRight:'60px'}}>
 <div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
-<div  style={{fontSize:'18px',}}>370.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
+<div  style={{fontSize:'18px',}}>500.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
 </div>
 <div>
 <Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
@@ -73,7 +73,7 @@ kurs. (amaliy)</Card.Title>
 </div>
 <div style={{textAlign:'center',paddingLeft:'60px',paddingRight:'60px'}}>
 <div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
-<div  style={{fontSize:'18px',}}>370.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
+<div  style={{fontSize:'18px',}}>500.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
 </div>
 <div>
 <Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 

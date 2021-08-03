@@ -1,0 +1,124 @@
+
+.navbarMenu{
+    height: 70px;
+    background-color: #F1F2F6;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+.navbarMenu ul{
+    width: 30%;
+    margin-top: 12px;
+    display: flex;
+    height: 70px;
+    
+}
+
+
+
+@media (max-width: 767px){
+    .navbarToggle{
+     margin-top: -10px;
+     margin-left: 280px;
+     justify-content: end;
+     
+    }
+    .BrandImgMe{
+        margin: auto;
+        margin-top:-5px
+    }
+    .navbarCollapse li{
+        margin: auto;
+    }
+    .linked{
+     color: white;
+     margin: auto;
+     width: 100px; 
+    }
+    .navbarMenu ul{
+          margin-top: 50px;
+
+    }
+    .navbarCollapse{ 
+        margin-top:-40px;
+        margin-left: 200px;
+        width: 200px;
+       text-align: center;
+        background-color: #1E1E1E;
+        border-radius: 10px;
+        z-index: 1;
+        position: absolute;
+
+    }
+    .linked{
+        color: white;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:990px){
+  
+    .BrandImgMe{
+        margin-top: -5px;
+    }
+    .navbarToggle{
+        margin-top: -10px;
+        margin-left: 400px;
+        
+    }
+    .navbarCollapse {
+        background-color: black;
+        width: 200px;
+        height: auto;
+        color: white;
+        margin: auto;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 200px;
+        position: absolute;
+        z-index: 1;
+    }
+    .selected{
+        margin-top: 10px;
+    }
+    .linked{
+        color: white;
+
+    }
+
+}
+.navbarMenu ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: #9DA7BB;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.navbarCollapse  li {
+    margin-inline: 20px;
+   
+
+}
+.navbarMenu ul li a.active,
+.navbarMenu ul li a:active,
+.navbarMenu ul li a:hover{
+    color: black;
+}
+.studd.active, .studd:active{
+    color: black;
+    border-bottom: 4px solid red;
+    background-color: blue;
+}
+.linked{
+    list-style-type: none;
+    font-size: 20px;
+    border-bottom: none;
+}
+.selected{
+    border-bottom: 3px solid #536DFD;
+    margin-inline: 30px;
+    margin-top: 10px;
+   
+}

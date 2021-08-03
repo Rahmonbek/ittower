@@ -156,7 +156,7 @@ export default class Bosh2 extends Component {
                   />
                   <Card.Body>
                     <Card.Title className={stayle1.title1}>
-                      Boshlang’ich Photoshop kurslari
+                      Boshlang’ich Java kurslari
                     </Card.Title>
                     <Card.Text>
                       <div
@@ -223,7 +223,7 @@ export default class Bosh2 extends Component {
                   />
                   <Card.Body>
                     <Card.Title className={stayle1.title1}>
-                      Boshlang’ich Photoshop kurslari
+                      Boshlang’ich Python kurslari
                     </Card.Title>
                     <Card.Text>
                       <div
@@ -291,7 +291,7 @@ export default class Bosh2 extends Component {
                   />
                   <Card.Body>
                     <Card.Title className={stayle1.title1}>
-                      Boshlang’ich Photoshop kurslari
+                      Boshlang’ich C++ kurslari
                     </Card.Title>
                     <Card.Text>
                       <div
