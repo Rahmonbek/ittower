@@ -98,7 +98,7 @@ export default function Contact() {
               </Col>
             </Row>{" "}
             <h2 style={{ paddingTop: "50px" }}>
-              Manzil: Yakkasaroy maxalla kometiteti 
+              Manzil: Yakkasaroy Maxalla kometiteti 
             </h2>
           </Card.Text>
         </Card.Body>
