@@ -1,6 +1,6 @@
 import React from "react";
 import Menyu from "../pages/Bosh";
-import { Button, Card, Col, Row } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import { Map, Placemark, YMaps } from "react-yandex-maps";
 import PhoneIcon from "@material-ui/icons/Phone";
@@ -46,7 +46,7 @@ export default function Contact() {
           <Card.Text>
             <Row>
               <Col>
-                <div style={{ fontSize: "23px" }}>
+                <div className={style.disp} style={{ fontSize: "23px" }}>
                   <PhoneIcon
                     style={{
                       paddingRight: "10px",
@@ -96,7 +96,7 @@ export default function Contact() {
                   </a>
                 </div>
               </Col>
-            </Row>{" "}
+            </Row>
             <h2 style={{ paddingTop: "50px" }}>
               Manzil: Yakkasaroy Maxalla kometiteti 
             </h2>

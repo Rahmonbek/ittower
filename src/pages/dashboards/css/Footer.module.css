@@ -54,8 +54,8 @@
     margin-top: 50px;
 }
 .row1 .payments a{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #dbdbdbbd;
     display: flex;
@@ -101,7 +101,13 @@ border-radius: 4px;
 
 
 @media (max-width:1191px){
-   
+    .pay img{
+        padding-left: 30px;   
+       }
+       .pay {
+        width:100%;   
+        padding-left: 30px;  
+       }
 }
 
 @media (max-width:991px){
@@ -111,7 +117,14 @@ border-radius: 4px;
     }
     .row .col-3 {
         width: 50%;
-    } 
+    }
+    .pay img{
+        padding-left: 30px;   
+       }
+       .pay {
+        width:100%;   
+        padding-left: 30px;  
+       } 
 }
 
 @media (max-width:767px){
@@ -129,8 +142,12 @@ border-radius: 4px;
     .row1 p {
         text-align: center;
     }
+    .pay img{
+     padding-left: 30px;   
+    }
     .pay {
-        margin-top: -500px;
+     width:100%;   
+     padding-left: 30px;  
     }
     .payments {
         margin-bottom: 20px;
@@ -140,6 +157,17 @@ border-radius: 4px;
     }
 }
 
-@media (max-width:575px){
-
+@media (min-width:575px){
+.pay img{ 
+    width: 40px;
+    height: 40px;
+   }
+   .pay{width: 100%;}
 }
+@media (max-width:575px){
+    .pay img{ 
+        height: 40px;
+    width: 40px;   
+    }
+    .pay{width: 100%;}
+    }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import images5 from '../../img/cpes1.jpeg'
-import { Card,Button, Container, Row,Col } from 'react-bootstrap'
+import { Card, Container, Row,Col } from 'react-bootstrap'
 import stayle1 from '../../css/Navbar3.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import images1 from '../../img/cpes2.jpeg'
