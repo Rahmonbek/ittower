@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import images5 from '../../img/image5.png'
+import images5 from '../../img/cpes1.jpeg'
 import { Card,Button, Container, Row,Col } from 'react-bootstrap'
 import stayle1 from '../../css/Navbar3.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import images1 from '../../img/image1.png'
+import images1 from '../../img/cpes2.jpeg'
 import ReactStars from "react-rating-stars-component";
 
 export default class Dizayn extends Component {
@@ -19,7 +19,7 @@ export default class Dizayn extends Component {
                     <Col> <Card style={{height:'430px'}}>
               <Card.Img variant="top" style={{height:'195px'}} src={images1} />
               <Card.Body>
-                <Card.Title className={stayle1.name1}>  Java, Spring bo’yicha to’liq 
+                <Card.Title className={stayle1.name1}>  Python bo’yicha to’liq 
             kurs. (amaliy)</Card.Title>
                 <Card.Text>
             <div style={{display:'flex'}} className={stayle1.star1}>
@@ -30,7 +30,7 @@ export default class Dizayn extends Component {
     activeColor="#ffd700"
   />
     <span style={{paddingTop:'8px'}}>  4.1  (564) </span>
-                <div className={stayle1.card12}  style={{background:' #D11F7F'}} >Marketing</div>
+                <div className={stayle1.card12}  style={{background:' #272948'}} >Back-End</div>
                 
                 <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
 <div style={{paddingLeft:'20px'}}>
@@ -39,11 +39,9 @@ export default class Dizayn extends Component {
 </div>
 <div style={{textAlign:'center',paddingLeft:'60px',paddingRight:'60px'}}>
 <div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
-<div  style={{fontSize:'18px',}}>370.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
+<div  style={{fontSize:'18px',}}>500.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
 </div>
-<div>
-<Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
-    </div></div></div>
+</div></div>
                 </Card.Text>
                 
               </Card.Body>
@@ -62,7 +60,7 @@ export default class Dizayn extends Component {
     activeColor="#ffd700"
   />
     <span style={{paddingTop:'8px'}}>  4.1  (564) </span>
-                <div className={stayle1.card12} style={{background:' #D11F7F'}}> Marketing</div>
+                <div className={stayle1.card12} style={{background:' #272948'}}> Back-End</div>
                
                 <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
 <div style={{paddingLeft:'20px'}}>
@@ -71,10 +69,10 @@ export default class Dizayn extends Component {
 </div>
 <div style={{textAlign:'center',paddingLeft:'60px',paddingRight:'60px'}}>
 <div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
-<div  style={{fontSize:'18px',}}>370.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
+<div  style={{fontSize:'18px',}}>500.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
 </div>
 <div>
-<Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
+
     </div></div></div>
                 </Card.Text>
                 
