@@ -7,6 +7,9 @@ import images3 from "../img/image3.png";
 import images4 from "../img/image4.png";
 import images5 from "../img/image5.png";
 import ReactStars from "react-rating-stars-component";
+import BackEndME from "../img/backme.jpg";
+import FrondME from "../img/frondme.jpg";
+import fullstack from "../img/fullstack1.jpg";
 
 export default class Bosh2 extends Component {
   render() {
@@ -30,10 +33,10 @@ export default class Bosh2 extends Component {
                 <Card.Body>
                   <Card.Title className={stayle1.name1}>
                     {" "}
-                    Java, Spring bo’yicha to’liq kurs. (amaliy)
+                    <b style={{marginLeft:'-18px'}}> Java Course, JavaOOp, JavaFx, Java  Spring Development, Database Development</b>
                   </Card.Title>
                   <Card.Text>
-                    <div className={stayle1.star1} style={{ display: "flex" }}>
+                    <div className={stayle1.star1} style={{ display: "flex",marginLeft:'-28px' }}>
                       <ReactStars
                         count={5}
                         onChange={ratingChanged}
@@ -42,29 +45,28 @@ export default class Bosh2 extends Component {
                       />
                       <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
                     </div>
-                    <div className={stayle1.card12}>Dasturlash</div>
+                    <div className={stayle1.card12}>Java</div>
 
                     <div
                       style={{
                         display: "flex",
-                        position: "absolute",
-                        bottom: "24px",
-                        left: "40px",
-                        right: "24px",
+                        justifyContent:'space-between',
+                        marginTop:'80px'
+                       
                       }}
                     >
-                      <div style={{ paddingLeft: "40px" }}>
+                      <div >
                         <div style={{ fontSize: "14px", opacity: "0.7" }}>
                           Kurs hajmi
                         </div>
-                        <div style={{ fontSize: "18px" }}>42 soat</div>
+                        <div style={{ fontSize: "18px" }}><b>42 soat</b></div>
                       </div>
                       <div style={{ textAlign: "center", paddingLeft: "90px" }}>
                         <div style={{ fontSize: "14px", opacity: "0.7" }}>
                           Kurs narxi
                         </div>
                         <div style={{ fontSize: "18px" }}>
-                          500.000
+                          <b>500.000</b>
                           <span
                             style={{
                               paddingLeft: "5px",
@@ -89,11 +91,12 @@ export default class Bosh2 extends Component {
                   style={{ height: "188px" }}
                   src={images2}
                 />
+                 <div className={stayle1.card13}>Dizayn</div>
                 <Card.Body>
                   <Card.Title className={stayle1.name2}>
-                    Illustrator boshlang’ichdan proffessionalgacha
+                    <b style={{marginLeft:'-18px'}}> Illustrator boshlang’ichdan proffessionalgacha Ta'lim <br/> beramiz</b>
                   </Card.Title>
-                  <Card.Text>
+                  <Card.Text >
                     <div className={stayle1.star2} style={{ display: "flex" }}>
                       <ReactStars
                         count={5}
@@ -103,28 +106,26 @@ export default class Bosh2 extends Component {
                       />
                       <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
                     </div>
-                    <div className={stayle1.card13}>Dizayn</div>
+                   
                     <div
                       style={{
                         display: "flex",
-                        position: "absolute",
-                        bottom: "24px",
-                        left: "40px",
-                        right: "24px",
+                        justifyContent:'space-between',
+                        marginTop:'80px'                        
                       }}
                     >
-                      <div style={{ paddingLeft: "40px" }}>
+                      <div >
                         <div style={{ fontSize: "14px", opacity: "0.7" }}>
                           Kurs hajmi
                         </div>
-                        <div style={{ fontSize: "18px" }}>42 soat</div>
+                        <div style={{ fontSize: "18px" }}><b>42 soat</b></div>
                       </div>
                       <div style={{ textAlign: "center", paddingLeft: "90px" }}>
                         <div style={{ fontSize: "14px", opacity: "0.7" }}>
                           Kurs narxi
                         </div>
                         <div style={{ fontSize: "18px" }}>
-                          500.000
+                        <b>500.000</b>
                           <span
                             style={{
                               paddingLeft: "5px",
@@ -151,12 +152,15 @@ export default class Bosh2 extends Component {
                 <Card style={{ height: "450px" }}>
                   <Card.Img
                     variant="top"
-                    style={{ height: "195px" }}
-                    src={images3}
+                    style={{ height: "250px" }}
+                    src={BackEndME}
                   />
                   <Card.Body>
                     <Card.Title className={stayle1.title1}>
-                      Boshlang’ich Photoshop kurslari
+                      <b>
+                        Python yadrosi, Python Telegram boti, Django, API, Git /
+                        Github
+                      </b>
                     </Card.Title>
                     <Card.Text>
                       <div
@@ -171,21 +175,27 @@ export default class Bosh2 extends Component {
                         />
                         <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
                       </div>
-                      <div className={stayle1.card12}>Dasturlash</div>
+                      <div
+                        style={{ backgroundColor: "#2E406C" }}
+                        className={stayle1.card12}
+                      >
+                        Back-End
+                      </div>
                       <div
                         style={{
                           display: "flex",
-                          position: "absolute",
-                          bottom: "24px",
-                          left: "40px",
-                          right: "24px",
+                          justifyContent: "space-between",
+                          marginTop: "20px",
+                          marginLeft: "-33px",
                         }}
                       >
                         <div style={{ paddingLeft: "40px" }}>
                           <div style={{ fontSize: "14px", opacity: "0.7" }}>
                             Kurs hajmi
                           </div>
-                          <div style={{ fontSize: "18px" }}>42 soat</div>
+                          <div style={{ fontSize: "18px" }}>
+                            <b>42 soat</b>
+                          </div>
                         </div>
                         <div
                           style={{ textAlign: "center", paddingLeft: "60px" }}
@@ -194,7 +204,7 @@ export default class Bosh2 extends Component {
                             Kurs narxi
                           </div>
                           <div style={{ fontSize: "18px" }}>
-                            500.000
+                            <b>500.000</b>
                             <span
                               style={{
                                 paddingLeft: "5px",
@@ -212,23 +222,25 @@ export default class Bosh2 extends Component {
                 </Card>
               </div>
             </Col>
-
             <Col style={{ paddingBottom: "30px" }}>
-              <div className={stayle1.ycard2}>
+              <div className={stayle1.ycard1}>
                 <Card style={{ height: "450px" }}>
                   <Card.Img
                     variant="top"
-                    style={{ height: "195px" }}
-                    src={images4}
+                    style={{ height: "250px" }}
+                    src={FrondME}
                   />
                   <Card.Body>
                     <Card.Title className={stayle1.title1}>
-                      Boshlang’ich Photoshop kurslari
+                      <b>
+                        HTML, CSS Bootstrap , JavaScript, Ajax, React , React
+                        Native , React Hook Material UI, Redux API
+                      </b>
                     </Card.Title>
                     <Card.Text>
                       <div
                         className={stayle1.star2}
-                        style={{ display: "flex" }}
+                        style={{ display: "flex", marginTop: "-15px" }}
                       >
                         <ReactStars
                           count={5}
@@ -238,22 +250,27 @@ export default class Bosh2 extends Component {
                         />
                         <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
                       </div>
-                      <div className={stayle1.card12}>Dasturlash</div>
-
+                      <div
+                        style={{ backgroundColor: "#2E406C" }}
+                        className={stayle1.card12}
+                      >
+                        Frond-End
+                      </div>
                       <div
                         style={{
                           display: "flex",
-                          position: "absolute",
-                          bottom: "24px",
-                          left: "40px",
-                          right: "24px",
+                          justifyContent: "space-between",
+                          marginTop: "10px",
+                          marginLeft: "-33px",
                         }}
                       >
                         <div style={{ paddingLeft: "40px" }}>
                           <div style={{ fontSize: "14px", opacity: "0.7" }}>
                             Kurs hajmi
                           </div>
-                          <div style={{ fontSize: "18px" }}>42 soat</div>
+                          <div style={{ fontSize: "18px" }}>
+                            <b>42 soat</b>
+                          </div>
                         </div>
                         <div
                           style={{ textAlign: "center", paddingLeft: "60px" }}
@@ -262,7 +279,7 @@ export default class Bosh2 extends Component {
                             Kurs narxi
                           </div>
                           <div style={{ fontSize: "18px" }}>
-                            500.000
+                            <b>500.000</b>
                             <span
                               style={{
                                 paddingLeft: "5px",
@@ -280,18 +297,20 @@ export default class Bosh2 extends Component {
                 </Card>
               </div>
             </Col>
-
             <Col style={{ paddingBottom: "30px" }}>
-              <div className={stayle1.ycard3}>
+              <div className={stayle1.ycard1}>
                 <Card style={{ height: "450px" }}>
                   <Card.Img
                     variant="top"
-                    style={{ height: "195px" }}
-                    src={images5}
+                    style={{ height: "250px" }}
+                    src={fullstack}
                   />
                   <Card.Body>
                     <Card.Title className={stayle1.title1}>
-                      Boshlang’ich Photoshop kurslari
+                      <b>
+                        Python yadrosi, Python Telegram boti, Django, API, Git /
+                        Github
+                      </b>
                     </Card.Title>
                     <Card.Text>
                       <div
@@ -306,22 +325,27 @@ export default class Bosh2 extends Component {
                         />
                         <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
                       </div>
-                      <div className={stayle1.card12}>Dasturlash</div>
-
+                      <div
+                        style={{ backgroundColor: "#2E406C" }}
+                        className={stayle1.card12}
+                      >
+                        Full-Stack
+                      </div>
                       <div
                         style={{
                           display: "flex",
-                          position: "absolute",
-                          bottom: "24px",
-                          left: "40px",
-                          right: "24px",
+                          justifyContent: "space-between",
+                          marginTop: "20px",
+                          marginLeft: "-33px",
                         }}
                       >
                         <div style={{ paddingLeft: "40px" }}>
                           <div style={{ fontSize: "14px", opacity: "0.7" }}>
                             Kurs hajmi
                           </div>
-                          <div style={{ fontSize: "18px" }}>42 soat</div>
+                          <div style={{ fontSize: "18px" }}>
+                            <b>42 soat</b>
+                          </div>
                         </div>
                         <div
                           style={{ textAlign: "center", paddingLeft: "60px" }}
@@ -330,7 +354,7 @@ export default class Bosh2 extends Component {
                             Kurs narxi
                           </div>
                           <div style={{ fontSize: "18px" }}>
-                            500.000
+                            <b>500.000</b>
                             <span
                               style={{
                                 paddingLeft: "5px",
