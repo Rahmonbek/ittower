@@ -9,7 +9,6 @@ import telegram from '../img/telegram.png'
 import instagram from '../img/instagram.jpeg'
 import youtube from '../img/youtobe.jpeg'
 import { Link } from 'react-router-dom'
-import AlternateEmailIcon from '@material-ui/icons/AlternateEmail'; 
 
 export default class Footer extends Component {
     render() {
@@ -48,12 +47,12 @@ export default class Footer extends Component {
                 </div>
                 <div className={style.row1}>
                     <div className={style.col-3}>
-                        <div className={style.payments,style.pay}>
+                        <div className={style.pay}>
                             <a href="https://t.me/IT_tower" target="_blank"><img style={{width:'40px'}} src={telegram} /></a>
                             <a href="ittower01@gmail.com" target="_blank"><img style={{width:'40px'}} src={email} /></a>
                             <a href="https://www.instagram.com/it_tower_academy/" ><img style={{width:'40px'}} src={instagram} /></a>
                             <a href="https://youtube.com" target="_blank"><img style={{width:'40px'}} src={youtube} /></a>
-                        </div>
+                        </div></div><div className={style.row1}>
                     </div>
                     <div className={style.col-3}>
                         <p>100011, Toshkent sh. Shayxontohur tum.,<br/> Zarqaynar ko'ch., 3B-uy</p>
