@@ -161,6 +161,7 @@ export default class Bosh2 extends Component {
                         Python yadrosi, Python Telegram boti, Django, API, Git /
                         Github
                       </b>
+                     
                     </Card.Title>
                     <Card.Text>
                       <div
@@ -236,6 +237,7 @@ export default class Bosh2 extends Component {
                         HTML, CSS Bootstrap , JavaScript, Ajax, React , React
                         Native , React Hook Material UI, Redux API
                       </b>
+                     
                     </Card.Title>
                     <Card.Text>
                       <div
@@ -311,6 +313,7 @@ export default class Bosh2 extends Component {
                         Python yadrosi, Python Telegram boti, Django, API, Git /
                         Github
                       </b>
+                     
                     </Card.Title>
                     <Card.Text>
                       <div
