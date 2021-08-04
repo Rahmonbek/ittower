@@ -189,15 +189,12 @@ export default class Bosh2 extends Component {
                       >
                         Back-End
                       </div>
-                      <div
-                        style={{
-                          display: "flex",
-                          justifyContent: "space-between",
-                          marginTop: "20px",
-                          marginLeft: "-33px",
-                        }}
-                      >
-                        <div style={{ paddingLeft: "40px" }}>
+                      
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Footer className={stayle1.CardFooterMe}>
+                      <div className={stayle1.CardPriceTimeSmall}>
+                        <div>
                           <div style={{ fontSize: "14px", opacity: "0.7" }}>
                             Kurs hajmi
                           </div>
@@ -225,8 +222,7 @@ export default class Bosh2 extends Component {
                           </div>
                         </div>
                       </div>
-                    </Card.Text>
-                  </Card.Body>
+                    </Card.Footer>
                 </Card>
               </div>
             </Col>
@@ -241,14 +237,14 @@ export default class Bosh2 extends Component {
                   <Card.Body>
                     <Card.Title className={stayle1.title1}>
                       <b className={stayle1.CardTextFrond}>
-                        HTML, CSS Bootstrap , JavaScript, Ajax, React , React
-                        Native , React Hook Material UI, Redux API
+                        HTML, CSS , JavaScript, React , Native , Hook Material
+                        UI, Redux API
                       </b>
                     </Card.Title>
                     <Card.Text>
                       <div
                         className={stayle1.star2}
-                        style={{ display: "flex", marginTop: "-15px" }}
+                        style={{ display: "flex" }}
                       >
                         <ReactStars
                           count={5}
@@ -264,15 +260,12 @@ export default class Bosh2 extends Component {
                       >
                         Frond-End
                       </div>
-                      <div
-                        style={{
-                          display: "flex",
-                          justifyContent: "space-between",
-                          marginTop: "10px",
-                          marginLeft: "-33px",
-                        }}
-                      >
-                        <div style={{ paddingLeft: "40px" }}>
+                      
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Footer className={stayle1.CardFooterMe}>
+                      <div className={stayle1.CardPriceTimeSmall}>
+                        <div>
                           <div style={{ fontSize: "14px", opacity: "0.7" }}>
                             Kurs hajmi
                           </div>
@@ -300,8 +293,7 @@ export default class Bosh2 extends Component {
                           </div>
                         </div>
                       </div>
-                    </Card.Text>
-                  </Card.Body>
+                    </Card.Footer>
                 </Card>
               </div>
             </Col>
@@ -339,15 +331,12 @@ export default class Bosh2 extends Component {
                       >
                         Full-Stack
                       </div>
-                      <div
-                        style={{
-                          display: "flex",
-                          justifyContent: "space-between",
-                          marginTop: "20px",
-                          marginLeft: "-33px",
-                        }}
-                      >
-                        <div style={{ paddingLeft: "40px" }}>
+                    </Card.Text>
+                   
+                  </Card.Body>
+                  <Card.Footer className={stayle1.CardFooterMe}>
+                      <div className={stayle1.CardPriceTimeSmall}>
+                        <div>
                           <div style={{ fontSize: "14px", opacity: "0.7" }}>
                             Kurs hajmi
                           </div>
@@ -375,8 +364,7 @@ export default class Bosh2 extends Component {
                           </div>
                         </div>
                       </div>
-                    </Card.Text>
-                  </Card.Body>
+                    </Card.Footer>
                 </Card>
               </div>
             </Col>

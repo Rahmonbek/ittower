@@ -48,7 +48,7 @@ export default function Bosh1() {
     <div className={styles.HeaderMenu}>
       <div className={styles.ContainerMeHead}>
         <div className={styles.TextHeaderMenu}>
-          <h1>
+          <h1 className={styles.TextHeaderMenuH1}>
             Biz sizga Dasturlash <br />
             va boshqa <b style={{ color: "#FFD401" }}>Offline</b> va{" "}
             <b style={{ color: "#FFD401" }}>Online</b> kurslarni taklif etamiz.
@@ -63,11 +63,10 @@ export default function Bosh1() {
         <div className={styles.CardMeHeader}>
           <div className={styles.CircleYellow}>
             <div id={styles.IdCardFirst}>
-
               {/* First Cardme  Dasturlash */}
 
               <div className={styles.CardMe1}>
-              <p
+                <p
                   style={{
                     display: "flex",
                     width: "100%",
@@ -77,7 +76,7 @@ export default function Bosh1() {
                   }}
                 >
                   <p
-                    style={{ backgroundColor: "#272948",}}
+                    style={{ backgroundColor: "#272948" }}
                     className={styles.MarketingMeButton}
                   >
                     Back-End
@@ -128,8 +127,8 @@ export default function Bosh1() {
                   </div>
                 </p>
               </div>
-             
-             {/* Second Cardme Frond-End */}
+
+              {/* Second Cardme Frond-End */}
 
               <div id={styles.CardMeFrondEnd} className={styles.CardMe2}>
                 <p
@@ -195,17 +194,11 @@ export default function Bosh1() {
               </div>
             </div>
 
-                      
-
-
-            <div className={styles.CardThirdFour}
-            
-            >
-
+            <div className={styles.CardThirdFour}>
               {/* Third CardMe  Back-End*/}
 
               <div className={styles.CardMe3}>
-              <p
+                <p
                   style={{
                     display: "flex",
                     width: "100%",
@@ -264,10 +257,9 @@ export default function Bosh1() {
                     </i>
                   </div>
                 </p>
-               
               </div>
-            
-            {/* Fourth CardMe Marketing */}
+
+              {/* Fourth CardMe Marketing */}
 
               <div style={{ marginLeft: "20px" }} className={styles.CardMe4}>
                 <p

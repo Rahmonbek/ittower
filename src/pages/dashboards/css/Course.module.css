@@ -177,7 +177,7 @@
     margin-top: 20px;
     font-family: Gill Sans, sans-serif;
     color: #C8C8C8;
-    
+     
 }
 .ThreeCardImgme{
     height: 200px;
@@ -187,17 +187,35 @@
 @media (max-width:767px){
     .CoureselImg{
         width: 100%;
-        border: 1px solid black;
+        height: 200px;
+        margin-top: 10px;
+        background: url(../img/brand4.jpg);
+        
+    }
+    .TextMeGroup{
+        width: 100%;
+        margin: auto;
+        display: block;
+        line-height: 20px;
     }
     .TextMe{
+        width: 100%;
         display: block;
-        height: 100%;
+        font-size: 25px;
+        line-height: 30px;
+        color: #22a6b3;
+    }
+    .TextMeSmall{
+        width: 100%;
+        margin-top: -1%;
+        font-size: 20px;
+        color: #22a6b3;
     }
     .Rasm{
         display: none;
     }
     .Rasm{
-        background: url('../img//Head3.png');
+        background: url();
     }
     .CardGroupBody{
         display: block;
@@ -234,9 +252,9 @@
 }
 @media (min-width:768px) and (max-width:1023px){
     .CoureselImg{
-        border: 1px solid black;
         width: 90%;
          height: 600px;
+         margin-top: 10px;
 
         
     }
@@ -266,7 +284,7 @@
 @media (min-width:1023px) and (max-width:1300px){
     .CoureselImg{
         width: 100%;
-        border: 1px solid black;
+        margin-top: 10px;
     }
     .TextMe{
         display: block;

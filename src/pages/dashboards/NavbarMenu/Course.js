@@ -28,9 +28,9 @@ export default function Course() {
                 className={styles.TextMe}
               >
                 DASTURLASHNI{" "}
-                <div>
+                
                   QULAY <span style={{ color: "#00B533" }}>MUHITDA</span>{" "}
-                </div>
+                
                 O‘RGANING
               </h1>
               {/* <p className={styles.TextMeSmall}>

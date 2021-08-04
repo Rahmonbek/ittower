@@ -17,23 +17,23 @@ export default function NavbarGroup() {
   return (
     <div>
       <Router>
-        <div>
+        <div><div className={menyu.NavBarMenuOut}>
           <Navbar className={menyu.navbarMenu} collapseOnSelect expand="lg">
-            <Container>
+            
               <Navbar.Brand
-                style={{ width: "65px", height: "65px" }}
+              className={menyu.BrandImg}
                 href="#home"
               >
                 <img
                   className={menyu.BrandImgMe}
-                  style={{ width: "100%", height: "100%" }}
-                  src={Logo}
+                    src={Logo}
                 />
               </Navbar.Brand>
 
               <Navbar.Toggle
                 className={menyu.navbarToggle}
                 aria-controls="responsive-navbar-nav"
+                class="ml-auto"
               />
               <ul>
                 <Navbar.Collapse
@@ -84,8 +84,9 @@ export default function NavbarGroup() {
                   </Nav>
                 </Navbar.Collapse>
               </ul>
-            </Container>
+            
           </Navbar>
+          </div>
 
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

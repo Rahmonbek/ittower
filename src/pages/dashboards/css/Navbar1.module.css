@@ -7,7 +7,7 @@ top: 801px;
 border-radius: nullpx;
 font-family: SF Pro Display;
 font-size: 30px;
-margin-top:100px;
+margin-top:100px; 
 line-height: 36px;
 letter-spacing: 0em;
 color: #2E2E2E;
@@ -257,8 +257,20 @@ box-shadow: 0px 2px 2px 0px #0000001A;
     .CardPriceTimeDesign{
         display: flex;
         justify-content: space-between;
-        margin-top: 80px;
+        margin-top: 15%;
         
+    }
+    .CardFooterMe{
+
+        
+        
+    }
+    .CardPriceTimeSmall{
+        display: flex;
+        justify-content: space-between;
+    }
+    .CardTextFrond{
+        font-size: 20px;
     }
     @media(min-width:768px) and (max-width:1023px){
         .CardTextFrond{
@@ -269,6 +281,9 @@ box-shadow: 0px 2px 2px 0px #0000001A;
     }
     @media (max-width:767px){
         .CardPriceTimeDesign{
+        }
+        .CardTextFrond{
+            font-size: 15px;
         }
     }
 

@@ -20,11 +20,7 @@ export default class Bosh6 extends Component {
         >
           <div
             className={stayle5.titler}
-            style={{
-              textAlign: "center",
-              fontSize: "2.7vw",
-              alignItems: "center",
-            }}
+           
           >
             Biz haqimizda boshqalar fikri
           </div>

@@ -1,8 +1,8 @@
 
 .navbarMenu{
     height: 70px;
-    background-color: #F1F2F6;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     background-attachment: fixed;
 
 }
@@ -13,45 +13,64 @@
     height: 70px;
     
 }
- 
+ .BrandImg{
+     width: 65px;
+     height: 65px;
+ }
+.BrandImgMe{
+    width: 100%;
+    height: 100%;
+
+}
+.NavBarMenuOut{
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: #F1F2F6;
+
+}
 
 
 @media (max-width: 767px){
+    body{
+        overflow-x: hidden;
+    }
     .navbarMenu{
-        display: flex;
+        width:100%;
+        height: 70px;
     }
+    .BrandImg{
+        width: 55px;
+        height: 50px;
+          margin-top:-8%;
+      }
+        
+      
     .navbarToggle{
-     margin-top: -70px;
-     margin-left: 20px;
-     justify-content: end;
      
+        text-align: center;
+        margin-top: -8%;
+        margin-left: auto;
+        justify-content: flex-end;  
     }
-    .BrandImgMe{
-        margin: auto;
-        margin-top:-60px
-    }
-    .navbarCollapse li{
-        margin: auto;
-    }
+    
     .linked{
      color: white;
      margin: auto;
      width: 100px; 
     }
-    .navbarMenu ul{
-          margin-top: 50px;
-          
 
-    }
     .navbarCollapse{ 
-        width: 200px;
-      justify-content: start;   
-      margin-left: -100px;     
-       text-align: center;
+        position: absolute;
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -40%;
+        justify-content: start;   
+        text-align: center;
         background-color: #1E1E1E;
         border-radius: 10px;
         z-index: 1;
-        position: absolute;
+   
 
     }
     .linked{
@@ -61,27 +80,35 @@
 }
 
 @media (min-width:768px) and (max-width:990px){
-  
-    .BrandImgMe{
-        margin-top: -5px;
-    }
+  .navbarMenu{
+      height: 60px;
+  }
+  .BrandImg{
+    width: 55px;
+    height: 50px;
+      margin-top: -8%;
+  }
+    
   
     .navbarToggle{
-        margin-top: -10px;
-        margin-left: 400px;
-        
-    }
+        margin-top: -8%;
+        margin-left: auto;
+        justify-content: flex-end;  
+        }
     .navbarCollapse {
+        position: absolute;
+        justify-content: start;
         background-color: black;
         width: 200px;
         height: auto;
+       
         color: white;
         margin: auto;
         border-radius: 5px;
         text-align: center;
-        margin-left: 200px;
-        position: absolute;
         z-index: 1;
+        margin-top:50px;
+        margin-left: -40%;
     }
     .selected{
         margin-top: 10px;

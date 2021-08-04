@@ -10,7 +10,7 @@
     background-color: #536DFD;
     display: flex;
     
-}
+} 
 
 .CircleYellow{
     height: 550px;
@@ -38,7 +38,7 @@
     margin-left: 100px;
     margin-left: 0px;
 }
-.TextHeaderMenu h1{
+.TextHeaderMenuH1{
     
 font-size: 55px;
 line-height: 60px;
@@ -195,31 +195,46 @@ cursor: pointer;
         text-align: start;
         justify-content: flex-start;
     }
+    .TextHeaderMenuH1{
+        font-size: 30px;
+        margin-top: 12%;
+        font-weight: 600;
+        line-height: 38px;
+    }
 }
-    @media (max-width:768px){
-        Map{
+ @media (max-width:768px){
+    .Map{
             width:100%;
             height: 200px;
             text-align: start;
           
-        }
+    }
+    .TextHeaderMenu{
+     
+    }
+    .HeaderMenu{
+        height: 400px;
+        background-color: green;
+        background: url(../img/brand6.jpg);
 
-    .TextHeaderMenu h1{
-        font-size: 45px;
-    
+    }
+    .CircleYellow{
+    }
+
+    .TextHeaderMenuH1{
+        font-size: 25px;
         line-height: 60px;
-        
-        /* white */
-        
-        margin-top: 40px;
-        color: white;
-        
+        margin-top: 20px;
+        color: #000000;
+        margin-left: 20px;
         }
         .CardMe4{
             display: none;
         }
         .TextHeaderMenu p{
             font-size: 20;
+            margin-left: 20px;
+            margin-top: 10px;
         }
        
         #CardMeFrondEnd{
