@@ -5,9 +5,9 @@ import {
   Switch,
   Route,
   NavLink,
-  Link,
+ 
 } from "react-router-dom";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import {  Navbar, Nav } from "react-bootstrap";
 import Course from "./Course";
 import Home from "./Home";
 import Contact from "./Contact";
@@ -17,17 +17,11 @@ export default function NavbarGroup() {
   return (
     <div>
       <Router>
-        <div><div className={menyu.NavBarMenuOut}>
-          <Navbar className={menyu.navbarMenu} collapseOnSelect expand="lg">
-            
-              <Navbar.Brand
-              className={menyu.BrandImg}
-                href="#home"
-              >
-                <img
-                  className={menyu.BrandImgMe}
-                    src={Logo}
-                />
+        <div>
+          <div className={menyu.NavBarMenuOut}>
+            <Navbar className={menyu.navbarMenu} collapseOnSelect expand="lg">
+              <Navbar.Brand className={menyu.BrandImg} href="#home">
+                <img className={menyu.BrandImgMe} src={Logo} />
               </Navbar.Brand>
 
               <Navbar.Toggle
@@ -84,8 +78,7 @@ export default function NavbarGroup() {
                   </Nav>
                 </Navbar.Collapse>
               </ul>
-            
-          </Navbar>
+            </Navbar>
           </div>
 
           {/* A <Switch> looks through its children <Route>s and

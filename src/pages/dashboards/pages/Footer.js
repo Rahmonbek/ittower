@@ -2,15 +2,10 @@ import React, { Component } from "react";
 import styles from "../css/Footer.module.css";
 import payme from "../img/payme.png";
 import click from "../img/click.png";
-import cx from "classnames";
 import upay from "../img/upay.png";
-import telegram from "../img/telegram.png";
-import email from "../img/amail.jpeg";
-import instagram from "../img/instagram.jpeg";
-import youtube from "../img/youtobe.jpeg";
+
 
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { Link, Router } from "react-router-dom";
 
 export default class Footer extends Component {
   render() {
@@ -30,7 +25,7 @@ export default class Footer extends Component {
                     <h4>Asosiy</h4>
                   </li>
                   <li>
-                    <br />
+                    <br /> 
                   </li>
                   <li>Loyiha haqida</li>
                   <li>Kurslar</li>

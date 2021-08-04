@@ -68,7 +68,7 @@ export default function Bosh1() {
               <div className={styles.CardMe1}>
                 <p
                   style={{
-                    display: "flex",
+                    display: "flex", 
                     width: "100%",
                     justifyContent: "space-between",
                     marginLeft: "10px",

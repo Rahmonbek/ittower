@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import { Card,  Container, Row, Col } from "react-bootstrap";
 import stayle1 from "../css/Navbar1.module.css";
 import images1 from "../img/image1.png";
 import images2 from "../img/image2.png";
-import images3 from "../img/image3.png";
-import images4 from "../img/image4.png";
-import images5 from "../img/image5.png";
+
 import ReactStars from "react-rating-stars-component";
 import BackEndME from "../img/backme.jpg";
 import FrondME from "../img/frondme.jpg";
@@ -54,41 +52,40 @@ export default class Bosh2 extends Component {
                     </div>
                     <div className={stayle1.card12}>Java</div>
 
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        marginTop: "80px",
-                      }}
-                    >
-                      <div>
-                        <div style={{ fontSize: "14px", opacity: "0.7" }}>
-                          Kurs hajmi
-                        </div>
-                        <div style={{ fontSize: "18px" }}>
-                          <b>42 soat</b>
-                        </div>
-                      </div>
-                      <div style={{ textAlign: "center", paddingLeft: "90px" }}>
-                        <div style={{ fontSize: "14px", opacity: "0.7" }}>
-                          Kurs narxi
-                        </div>
-                        <div style={{ fontSize: "18px" }}>
-                          <b>500.000</b>
-                          <span
-                            style={{
-                              paddingLeft: "5px",
-                              fontSize: "18px",
-                              opacity: "0.7",
-                            }}
-                          >
-                            uzs
-                          </span>
-                        </div>
-                      </div>
-                    </div>
+                    
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className={stayle1.CardFooterMe}>
+                      <div className={stayle1.CardPriceTimeSmall}>
+                        <div>
+                          <div style={{ fontSize: "14px", opacity: "0.7" }}>
+                            Kurs hajmi
+                          </div>
+                          <div style={{ fontSize: "18px" }}>
+                            <b>42 soat</b>
+                          </div>
+                        </div>
+                        <div
+                          style={{ textAlign: "center", paddingLeft: "60px" }}
+                        >
+                          <div style={{ fontSize: "14px", opacity: "0.7" }}>
+                            Kurs narxi
+                          </div>
+                          <div style={{ fontSize: "18px" }}>
+                            <b>500.000</b>
+                            <span
+                              style={{
+                                paddingLeft: "5px",
+                                fontSize: "18px",
+                                opacity: "0.7",
+                              }}
+                            >
+                              uzs
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </Card.Footer>
               </Card>
             </Col>
 
@@ -119,35 +116,40 @@ export default class Bosh2 extends Component {
                       <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
                     </div>
 
-                    <div className={stayle1.CardPriceTimeDesign}>
-                      <div>
-                        <div style={{ fontSize: "14px", opacity: "0.7" }}>
-                          Kurs hajmi
-                        </div>
-                        <div style={{ fontSize: "18px" }}>
-                          <b>42 soat</b>
-                        </div>
-                      </div>
-                      <div style={{ textAlign: "center", paddingLeft: "90px" }}>
-                        <div style={{ fontSize: "14px", opacity: "0.7" }}>
-                          Kurs narxi
-                        </div>
-                        <div style={{ fontSize: "18px" }}>
-                          <b>500.000</b>
-                          <span
-                            style={{
-                              paddingLeft: "5px",
-                              fontSize: "18px",
-                              opacity: "0.7",
-                            }}
-                          >
-                            uzs
-                          </span>
-                        </div>
-                      </div>
-                    </div>
+                  
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className={stayle1.CardFooterMe}>
+                      <div className={stayle1.CardPriceTimeSmall}>
+                        <div>
+                          <div style={{ fontSize: "14px", opacity: "0.7" }}>
+                            Kurs hajmi
+                          </div>
+                          <div style={{ fontSize: "18px" }}>
+                            <b>42 soat</b>
+                          </div>
+                        </div>
+                        <div
+                          style={{ textAlign: "center", paddingLeft: "60px" }}
+                        >
+                          <div style={{ fontSize: "14px", opacity: "0.7" }}>
+                            Kurs narxi
+                          </div>
+                          <div style={{ fontSize: "18px" }}>
+                            <b>500.000</b>
+                            <span
+                              style={{
+                                paddingLeft: "5px",
+                                fontSize: "18px",
+                                opacity: "0.7",
+                              }}
+                            >
+                              uzs
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </Card.Footer>
               </Card>
             </Col>
           </Row>

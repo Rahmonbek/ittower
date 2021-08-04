@@ -209,18 +209,14 @@ cursor: pointer;
             text-align: start;
           
     }
-    .TextHeaderMenu{
-     
-    }
+   
     .HeaderMenu{
         height: 400px;
         background-color: green;
         background: url(../img/brand6.jpg);
 
     }
-    .CircleYellow{
-    }
-
+   
     .TextHeaderMenuH1{
         font-size: 25px;
         line-height: 60px;

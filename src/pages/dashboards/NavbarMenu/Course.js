@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../css/Course.module.css";
-import { Container, Row, Col, CardGroup, Card } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
 import Head1 from "../img/Head.jpg";
 import Head3 from "../img/brand1.jpg";
 import Card1 from "../img/Card1.jpg";
@@ -10,22 +10,21 @@ import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
 import { FaUniversity } from "react-icons/fa";
 import { FcHome } from "react-icons/fc";
 import { BsChevronRight } from "react-icons/bs";
-import Sertif from "../img/sertificate.jpg";
 import Staj from "../img/worked.jpg";
 import Result from "../img/result.png";
 import Win from "../img/winners.gif";
 import Footer from "../pages/Footer";
 
-export default function Course() {
-  return (
-    <div className={styles.HeaderMenu}>
+export default function Course(){
+  return (  
+    <div className = {styles.HeaderMenu}>
      
-        <div className={styles.BodyMenu}>
-          <div className={styles.CoureselImg}>
-            <p className={styles.TextMeGroup}>
+        <div className = {styles.BodyMenu}>
+          <div className = {styles.CoureselImg}>
+            <p className = {styles.TextMeGroup}>
               <h1
                 style={{ textTransform: "uppercase" }}
-                className={styles.TextMe}
+                className = {styles.TextMe}
               >
                 DASTURLASHNI{" "}
                 
@@ -75,7 +74,7 @@ export default function Course() {
                 <Card.Footer>
                   <Card.Link
                     style={{ color: "#000000" }}
-                    className={styles.CardFooter3}
+                    className={styles.CardFooter3} 
                     href="#"
                   >
                     Ba'tafsil malumot uchun

@@ -11,6 +11,8 @@
     margin-top: 12px;
     display: flex;
     height: 70px;
+    margin-left: auto;
+    
     
 }
  .BrandImg{
@@ -25,7 +27,6 @@
 .NavBarMenuOut{
     width: 100%;
     margin: auto;
-    border: 1px solid black;
     background-color: #F1F2F6;
 
 }
@@ -35,8 +36,13 @@
     body{
         overflow-x: hidden;
     }
+    .NavBarMenuOut{
+        width: 100%;
+    
+    }
     .navbarMenu{
         width:100%;
+        margin: auto; 
         height: 70px;
     }
     .BrandImg{
@@ -63,8 +69,8 @@
     .navbarCollapse{ 
         position: absolute;
         width: 150px;
-        margin-top: 50px;
         margin-left: -40%;
+        margin-top: 50px;
         justify-content: start;   
         text-align: center;
         background-color: #1E1E1E;
