@@ -4,4 +4,12 @@
     .NavbarMenu{
         margin-left: 110px;
     }
+    .NavBarUl{
+        color: white;
+    }
+}
+@media (max-width:767px){
+    .NavBarUl{
+        color: white;
+    }
 }
