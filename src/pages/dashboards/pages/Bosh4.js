@@ -14,13 +14,13 @@ export default class Bosh4 extends Component {
               className="mr-auto my-2 my-lg-0"
               style={{ maxHeight: "100px" }}
               navbarScroll
+              id={styles.NavBarUl}
             > 
               <Nav.Link href="#action1">
                 <NavLink
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "white",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/dasturlash"
@@ -33,7 +33,6 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "white",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/dizayn"
@@ -48,7 +47,7 @@ export default class Bosh4 extends Component {
                     fontSize: "22px",
                     color: "white",
                   }}
-                  activeStyle={{ color: "#010101" }}
+                  activeStyle={{ color: "#FFFFFF" }}
                   to="/marketing"
                 >
                   Marketing
@@ -59,7 +58,6 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "#000000",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/biznes"

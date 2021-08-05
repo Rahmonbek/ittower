@@ -85,7 +85,7 @@ export default class Bosh3 extends Component {
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#0F1F27",
+                        color: "#FFFFFF",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/dasturlash"
@@ -96,7 +96,7 @@ export default class Bosh3 extends Component {
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#0F1F27",
+                        color: "#FFFFFF",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/dizayn"
@@ -107,7 +107,7 @@ export default class Bosh3 extends Component {
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#0F1F27",
+                        color: "#FFFFFF",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/marketing"
@@ -118,7 +118,7 @@ export default class Bosh3 extends Component {
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#0F1F27",
+                        color: "#FFFFFF",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/biznes"
