@@ -1,6 +1,6 @@
 import React from "react";
 import Menyu from "../pages/Bosh";
-import { Card, Col, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import { Map, Placemark, YMaps } from "react-yandex-maps";
 import PhoneIcon from "@material-ui/icons/Phone";
@@ -23,7 +23,7 @@ export default function Contact() {
       >
         <YMaps>
           <Map
-            style={{ width: "100%", height: "30vw" }}
+            style={{ width: "100%", height: "40vw" }}
             defaultState={{ center: [41.263795, 69.22599], zoom: 12 }}
           >
             <Placemark geometry={[41.263795, 69.22599]} />
@@ -44,9 +44,10 @@ export default function Contact() {
             Biz bilan bog`lanish
           </Card.Title>
           <Card.Text>
+<Container>
             <Row>
               <Col>
-                <div className={style.disp} style={{ fontSize: "23px" }}>
+                <div className={style.disp} style={{width:'300px', display:'flex', fontSize: "23px", height:'40px'}}>
                   <PhoneIcon
                     style={{
                       paddingRight: "10px",
@@ -56,7 +57,7 @@ export default function Contact() {
                   />
                   +998 99 934-97-07
                 </div>
-                <div style={{ fontSize: "23px" }}>
+                <div style={{ width:'300px', display:'flex', fontSize: "23px", height:'40px' }}>
                   <PhoneIcon
                     style={{
                       paddingRight: "10px",
@@ -68,7 +69,7 @@ export default function Contact() {
                 </div>
               </Col>
               <Col>
-                <div style={{ fontSize: "23px" }}>
+                <div style={{width:'300px', display:'flex', fontSize: "23px", height:'40px'  }}>
                   <TelegramIcon
                     style={{
                       paddingRight: "10px",
@@ -83,7 +84,7 @@ export default function Contact() {
                     @IT_tower
                   </a>
                 </div>
-                <div style={{ fontSize: "23px" }}>
+                <div style={{width:'300px', display:'flex', fontSize: "23px", height:'40px' }}>
                   <InstagramIcon
                     style={{
                       paddingRight: "10px",
@@ -91,12 +92,12 @@ export default function Contact() {
                       height: "40px",
                     }}
                   />
-                  <a href="https://www.instagram.com/it_tower_academy/">
+                  <a  href="https://www.instagram.com/it_tower_academy/">
                     @it_tower_academy
                   </a>
                 </div>
               </Col>
-            </Row>
+            </Row></Container>
             <h2 style={{ paddingTop: "50px" }}>
               Manzil: Yakkasaroy Maxalla kometiteti 
             </h2>
