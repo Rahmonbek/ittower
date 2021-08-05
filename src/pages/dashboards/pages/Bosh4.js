@@ -20,7 +20,7 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "#9DA7BB",
+                    color: "white",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/dasturlash"
@@ -33,7 +33,7 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "#9DA7BB",
+                    color: "white",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/dizayn"
@@ -46,7 +46,7 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "#9DA7BB",
+                    color: "white",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/marketing"
@@ -59,7 +59,7 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "#9DA7BB",
+                    color: "#000000",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/biznes"
@@ -72,7 +72,7 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "#9DA7BB",
+                    color: "#000000",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/salomatlik"
@@ -85,7 +85,7 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "#9DA7BB",
+                    color: "#000000",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/menejment"
@@ -98,7 +98,7 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "#9DA7BB",
+                    color: "#000000",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/buxgalteriya"
@@ -111,7 +111,7 @@ export default class Bosh4 extends Component {
                   style={{
                     textDecoration: "none",
                     fontSize: "22px",
-                    color: "#9DA7BB",
+                    color: "#000000",
                   }}
                   activeStyle={{ color: "#010101" }}
                   to="/tarmoq"

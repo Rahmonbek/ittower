@@ -197,6 +197,7 @@ top: 370px;
         margin-top: 20px;
         margin-bottom: 20px;
         margin: auto;
+        background-color: white;
     }
     .RowMeTop{
         text-align: center;
@@ -215,7 +216,7 @@ top: 370px;
         height: 210px;
         margin: auto;
         overflow-x: hidden;
-        background-color: #1E1E1E;
+        background-color: rgb(50, 60, 63);
     
     }
     
