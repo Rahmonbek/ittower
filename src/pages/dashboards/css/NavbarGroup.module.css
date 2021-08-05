@@ -1,23 +1,52 @@
 
-.navbarMenu{
-    height: 70px;
-    width: 90%;
-    margin: auto;
-    background-attachment: fixed;
+
+#Nav1{
+  
+margin-left: auto;
+  
+
 
 }
-.navbarMenu ul{
-    width: 30%;
-    margin-top: 12px;
-    display: flex;
-    height: 70px;
-    margin-left: auto;
-    
+
+#Nav1 .Nav2{
+    font-size: 23px;
+    padding-left: 60px;
+    font-weight: 600;
+}
+
+@media(max-width:991px){
+    #Nav1{
+        
+        margin:auto;
+        align-items: right;
+        border-radius: 5px;
+        width: 200px;
+        background-color: rgb(160, 137, 243);
+        }
+        #Nav1 .Nav2{
+            padding-left: 24px;
+            font-size: 14px;
+        }
+
+ .Navbar1{
+            height: 90px;
+        }
+.BrandImg{ 
+            width: 90px;
+            height: 80px;
+        }
+
+
     
 }
+
+
+
+
+
  .BrandImg{
-     width: 65px;
-     height: 65px;
+     width: 100px;
+     height: 90px;
  }
 .BrandImgMe{
     width: 100%;

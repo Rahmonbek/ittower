@@ -7,6 +7,7 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import Footer from "../pages/Footer";
 import style from "../css/Navbar5.module.css";
+import AlternateEmailIcon from '@material-ui/icons/AlternateEmail'; 
 
 export default function Contact() {
   return (
@@ -18,7 +19,7 @@ export default function Contact() {
           width: "85%",
           textAlign: "center",
           margin: "auto",
-          marginTop: "10px",
+          marginTop: "120px",
         }}
       >
         <YMaps>
@@ -97,9 +98,22 @@ export default function Contact() {
                   </a>
                 </div>
               </Col>
+              <Col>
+              <div style={{width:'300px', display:'flex', fontSize: "23px", height:'40px' }}>
+              <AlternateEmailIcon
+               style={{
+                      paddingRight: "10px",
+                      width: "40px",
+                      height: "40px",
+                    }}
+              />
+               <a  href="ittower01@gmail.com">
+               ittower01@gmail.com
+                  </a></div>
+              </Col>
             </Row></Container>
             <h2 style={{ paddingTop: "50px" }}>
-              Manzil: Yakkasaroy Maxalla kometiteti 
+              Manzil: Yakkasaroy Maxalla kometiteti 2-qavat IT Tower o`quv markazi  
             </h2>
           </Card.Text>
         </Card.Body>

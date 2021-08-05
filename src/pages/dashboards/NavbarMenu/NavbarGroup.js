@@ -7,7 +7,7 @@ import {
   NavLink,
  
 } from "react-router-dom";
-import {  Navbar, Nav } from "react-bootstrap";
+import {Container,  Navbar, Nav } from "react-bootstrap";
 import Course from "./Course";
 import Home from "./Home";
 import Contact from "./Contact";
@@ -17,70 +17,22 @@ export default function NavbarGroup() {
   return (
     <div>
       <Router>
-        <div>
-          <div className={menyu.NavBarMenuOut}>
-            <Navbar className={menyu.navbarMenu} collapseOnSelect expand="lg">
-              <Navbar.Brand className={menyu.BrandImg} href="#home">
-                <img className={menyu.BrandImgMe} src={Logo} />
-              </Navbar.Brand>
-
-              <Navbar.Toggle
-                className={menyu.navbarToggle}
-                aria-controls="responsive-navbar-nav"
-                class="ml-auto"
-              />
-              <ul>
-                <Navbar.Collapse
-                  className={menyu.navbarCollapse}
-                  id="responsive-navbar-nav"
-                >
-                  <Nav className="ml-auto">
-                    <li>
-                      <NavLink
-                        activeClassName={menyu.selected}
-                        style={{ textDecoration: "none", color: "#9DA7BB" }}
-                        activeStyle={{
-                          color: "#010101",
-                        }}
-                        to="/"
-                      >
-                        <p className={menyu.linked}>Home</p>
-                      </NavLink>
-                    </li>
-                  </Nav>
-                  <Nav className="ml-auto">
-                    <li>
-                      <NavLink
-                        activeClassName={menyu.selected}
-                        style={{ textDecoration: "none", color: "#9DA7BB" }}
-                        activeStyle={{
-                          color: "#010101",
-                        }}
-                        to="/course"
-                      >
-                        <p className={menyu.linked}>Course</p>
-                      </NavLink>
-                    </li>
-                  </Nav>
-                  <Nav className="ml-auto">
-                    <li>
-                      <NavLink
-                        activeClassName={menyu.selected}
-                        style={{ textDecoration: "none", color: "#9DA7BB" }}
-                        activeStyle={{
-                          color: "#010101",
-                        }}
-                        to="/contact"
-                      >
-                        <p className={menyu.linked}>Contact</p>
-                      </NavLink>
-                    </li>
-                  </Nav>
-                </Navbar.Collapse>
-              </ul>
-            </Navbar>
-          </div>
-
+     
+      <Navbar className={menyu.Navbar1} fixed="top" bg="light" expand="lg">
+  <Container>
+    <Navbar.Brand href="#"> <img  className={menyu.BrandImg} src={Logo}></img></Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      
+      <Nav id={menyu.Nav1} className="me-auto">
+        <Nav.Link  className={menyu.Nav2} href="/">Bosh sahifa</Nav.Link>
+        <Nav.Link className={menyu.Nav2}  href="/course">Kurslarimiz</Nav.Link>
+        <Nav.Link className={menyu.Nav2}   href="/contact">Biz bilan bog`lanish</Nav.Link>
+       </Nav> 
+       
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
@@ -94,7 +46,7 @@ export default function NavbarGroup() {
               <Home />
             </Route>
           </Switch>
-        </div>
+        
       </Router>
     </div>
   );
