@@ -99,7 +99,7 @@ export default class Bosh3 extends Component {
                         color: "#FFFFFF",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
-                      to="/dizayn"
+                      to="/frondend"
                     >
                       Frond-End
                     </NavLink>
@@ -110,7 +110,7 @@ export default class Bosh3 extends Component {
                         color: "#FFFFFF",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
-                      to="/marketing"
+                      to="/backend"
                     >
                       Back-End
                     </NavLink>
@@ -121,7 +121,7 @@ export default class Bosh3 extends Component {
                         color: "#FFFFFF",
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
-                      to="/biznes"
+                      to="/design"
                     >
                       Design
                     </NavLink>

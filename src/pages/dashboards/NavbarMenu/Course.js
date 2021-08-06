@@ -10,8 +10,8 @@ import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
 import { FaUniversity } from "react-icons/fa";
 import { FcHome } from "react-icons/fc";
 import { BsChevronRight } from "react-icons/bs";
-import Staj from "../img/worked.jpg";
-import Result from "../img/result.png";
+import Staj from "../img/workTime.png";
+import Result from "../img/Res.png";
 import Win from "../img/winners.gif";
 import Footer from "../pages/Footer";
 
@@ -204,7 +204,7 @@ export default function Course(){
             </div>
             <div className={styles.ArrivedFinish}>
               <div className={styles.ArrivedFinishSertificate}>
-                <h1>Sertifikat bilan taqdirlash</h1>
+                <h2 style={{width:'95%'}}>Sertifikat bilan taqdirlash</h2>
                 <p>
                   Kurs so'nggida talabaning o'zlashtirish ko'rsatkichlari
                   e'tiborga olingan holda eng yaxshi sertifikatlar beriladi.
@@ -221,7 +221,7 @@ export default function Course(){
                 </p>
               </div>
               <div className={styles.ArrivedFinishSertificate}>
-                <h1>Ish bilan ta'minlashda amaliy ko'mak</h1>
+                <h2>Ish bilan ta'minlashda amaliy ko'mak</h2>
                 <p>
                   Kurslarni muvaffaqiyatli tamomlagan talabalarga It-Tower
                   akademiyasi tomonidan ish bilan ta’minlashda amaliy yordam
@@ -232,7 +232,7 @@ export default function Course(){
                 </p>
               </div>
               <div className={styles.ArrivedFinishSertificate}>
-                <h1>Ishga kiring va karyerangizni boshlang</h1>
+                <h2>Ishga kiring va karyerangizni boshlang</h2>
                 <p>
                   Biz bilan orzu qilgan ish o'rningiz egasiga aylaning. Kursni
                   muvaffaqiyatli tamomlasangiz albatta ishga kirishingiz

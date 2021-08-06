@@ -15,6 +15,8 @@ import ReactStars from "react-rating-stars-component";
 import { makeStyles } from "@material-ui/core/styles";
 import Rating from "@material-ui/lab/Rating";
 import Box from "@material-ui/core/Box";
+import Khaby from "../img/Khaby.mp4";
+import { Player, BigPlayButton } from "video-react";
 
 const labels = {
   0.5: "0.5",
@@ -63,9 +65,18 @@ export default function Bosh1() {
         <div className={styles.CardMeHeader}>
           <div className={styles.CircleYellow}>
             <div id={styles.IdCardFirst}>
+              <video loop autoPlay muted className={styles.VideoKhaby}>
+                <source
+               
+                  src={Khaby}
+                  type="video/mp4"
+                />
+              </video>
+              
+
               {/* First Cardme  Dasturlash */}
 
-              <div className={styles.CardMe1}>
+              {/* <div className={styles.CardMe1}>
                 <p
                   style={{
                     display: "flex", 
@@ -126,11 +137,11 @@ export default function Bosh1() {
                     </i>
                   </div>
                 </p>
-              </div>
+              </div> */}
 
               {/* Second Cardme Frond-End */}
 
-              <div id={styles.CardMeFrondEnd} className={styles.CardMe2}>
+              {/* <div id={styles.CardMeFrondEnd} className={styles.CardMe2}>
                 <p
                   style={{
                     display: "flex",
@@ -194,10 +205,10 @@ export default function Bosh1() {
               </div>
             </div>
 
-            <div className={styles.CardThirdFour}>
+            <div className={styles.CardThirdFour}> */}
               {/* Third CardMe  Back-End*/}
 
-              <div className={styles.CardMe3}>
+              {/* <div className={styles.CardMe3}>
                 <p
                   style={{
                     display: "flex",
@@ -257,10 +268,10 @@ export default function Bosh1() {
                     </i>
                   </div>
                 </p>
-              </div>
+              </div> */}
 
               {/* Fourth CardMe Marketing */}
-
+              {/* 
               <div style={{ marginLeft: "20px" }} className={styles.CardMe4}>
                 <p
                   style={{
@@ -316,7 +327,7 @@ export default function Bosh1() {
                     </i>
                   </div>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

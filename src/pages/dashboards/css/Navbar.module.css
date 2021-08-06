@@ -9,8 +9,16 @@
     height: 600px;
     background-color: #536DFD;
     display: flex;
+    margin-top: 115px;
     
 } 
+.VideoKhaby{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 50%;
+    
+}
 
 .CircleYellow{
     height: 550px;

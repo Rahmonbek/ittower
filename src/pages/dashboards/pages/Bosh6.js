@@ -18,12 +18,7 @@ export default class Bosh6 extends Component {
             alignItems: "center",
           }}
         >
-          <div
-            className={stayle5.titler}
-           
-          >
-            Biz haqimizda boshqalar fikri
-          </div>
+          <div className={stayle5.titler}>Biz haqimizda boshqalar fikri</div>
 
           <div
             className={stayle5.cor}
@@ -54,11 +49,13 @@ export default class Bosh6 extends Component {
                   </p>
 
                   <p style={{ color: "black", textAlign: "center" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Egestas cras turpis volutpat libero orci placerat varius.
-                    Diam egestas morbi suspendisse morbi. Quis et volutpat donec
-                    ipsum malesuada ipsum mattis tincidunt mattis. Proin
-                    tristique ultrices egestas ut vitae consectetur est.
+                    IT-Tower – qisqa vaqt ichida yuqori natijalarga erishgan,
+                    O’zbekistondagi zamonaviy kasblarni o’rgatuvchi ilg’or
+                    ta'lim markazi. Sizga eng kerakli zamonaviy kasb va
+                    bilimlarni o’rgatadigan maskan. Bu yerda Web Dasturlash,
+                    Frond-End, Back-End kabi
+                    yo'nalishlarning birida o'qib, zamonaviy kasblarning
+                    mutaxassisi bo’lishingiz mumkin.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -86,11 +83,13 @@ export default class Bosh6 extends Component {
                   </p>
 
                   <p style={{ color: "black", textAlign: "center" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Egestas cras turpis volutpat libero orci placerat varius.
-                    Diam egestas morbi suspendisse morbi. Quis et volutpat donec
-                    ipsum malesuada ipsum mattis tincidunt mattis. Proin
-                    tristique ultrices egestas ut vitae consectetur est.
+                    IT-Tower – qisqa vaqt ichida yuqori natijalarga erishgan,
+                    O’zbekistondagi zamonaviy kasblarni o’rgatuvchi ilg’or
+                    ta'lim markazi. Sizga eng kerakli zamonaviy kasb va
+                    bilimlarni o’rgatadigan maskan. Bu yerda Web Dasturlash,
+                    Frond-End, Back-End kabi
+                    yo'nalishlarning birida o'qib, zamonaviy kasblarning
+                    mutaxassisi bo’lishingiz mumkin.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -119,11 +118,13 @@ export default class Bosh6 extends Component {
                   </p>
 
                   <p style={{ color: "black", textAlign: "center" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Egestas cras turpis volutpat libero orci placerat varius.
-                    Diam egestas morbi suspendisse morbi. Quis et volutpat donec
-                    ipsum malesuada ipsum mattis tincidunt mattis. Proin
-                    tristique ultrices egestas ut vitae consectetur est.
+                    IT-Tower – qisqa vaqt ichida yuqori natijalarga erishgan,
+                    O’zbekistondagi zamonaviy kasblarni o’rgatuvchi ilg’or
+                    ta'lim markazi. Sizga eng kerakli zamonaviy kasb va
+                    bilimlarni o’rgatadigan maskan. Bu yerda Web Dasturlash,
+                    Frond-End, Back-End, kabi
+                    yo'nalishlarning birida o'qib, zamonaviy kasblarning
+                    mutaxassisi bo’lishingiz mumkin.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>

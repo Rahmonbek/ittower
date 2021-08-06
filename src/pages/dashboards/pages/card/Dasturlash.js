@@ -1,91 +1,142 @@
-import React, { Component } from 'react'
-import { Card,Button, Container, Row,Col } from 'react-bootstrap'
-import stayle1 from '../../css/Navbar3.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import images1 from '../../img/cpes3.jpg'
-import images2 from '../../img/cpes5.jpeg'
+import React, { Component } from "react";
+import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import stayle1 from "../../css/Navbar3.module.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Card1 from "../../img/CardD1.jpg";
+import Card2 from "../../img/CardD2.jpg";
+import Card3 from "../../img/CardD4.jpg";
+import images2 from "../../img/cpes5.jpeg";
 import ReactStars from "react-rating-stars-component";
 
-export default class Dasturlash extends Component {
-    render() {
-        const ratingChanged = (newRating) => {
-            console.log(newRating);
-          };  
-        return (
-            <div>
-    <div style={{width:'100%',height:'auto' }}>            
+export default function Dasturlash() {
+  const ratingChanged = (newRating) => {
+    console.log(newRating);
+  };
+  return (
+    <div>
+      <Container>
+        <div className={stayle1.CardOutMe}>
+          <Card className={stayle1.CardMe}>
+            <Card.Img variant="top" src={Card1} />
+            <Card.Body>
+              <Card.Text>
+                <b className={stayle1.CourseThemeText}>
+                 Frontend Dev, Java Dev, Database Dev, Spring Dev, 
+                </b>
+              </Card.Text>
+              <p className={stayle1.JavaPragram}>Full-Stack</p>
+              <div className={stayle1.star2} style={{ display: "flex" }}>
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  activeColor="#ffd700"
+                />
+                <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
+              </div>
+            </Card.Body>
+            <Card.Footer className={stayle1.CardFooterMe}>
+              <div className={stayle1.CardPriceTimeSmall}>
+                <div>
+                  <div>Kurs hajmi</div>
+                  <div>
+                    <b>42 soat</b>
+                  </div>
+                </div>
+                <div>
+                  <div>Kurs narxi</div>
+                  <div>
+                    <b>500.000</b>
+                    <span>uzs</span>
+                  </div>
+                </div>
+              </div>
+            </Card.Footer>
+          </Card>
 
-<Container>
-    <Row lg={3} md={1} xs={1}>
-        <Col> <Card style={{height:'430px'}} >
-  <Card.Img variant="top"  style={{height:'195px'}}  src={images1} />
-  <Card.Body>
-    <Card.Title className={stayle1.name1}>  Java, Spring bo’yicha to’liq 
-kurs. (amaliy)</Card.Title>
-    <Card.Text>
-<div style={{display:'flex'}} className={stayle1.star1}>
-<ReactStars
-    count={5}
-    onChange={ratingChanged}
-    size={24}
-    activeColor="#ffd700"
-  />
-    <span style={{paddingTop:'8px'}}>  4.1  (564) </span>
-    <div className={stayle1.card12}>Dasturlash</div>
-    
-    <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
-<div style={{paddingLeft:'20px'}}>
-<div style={{fontSize:'14px', opacity:'0.7'}}>Kurs hajmi</div>
-<div  style={{fontSize:'18px'}}>42 soat</div>
-</div>
-<div style={{textAlign:'center',paddingLeft:'60px',paddingRight:'60px'}}>
-<div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
-<div  style={{fontSize:'18px',}}>500.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
-</div>
-<div>
-<Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
-    </div></div></div>
-    </Card.Text>
-    
-  </Card.Body>
-</Card></Col>
+          {/* Second Card */}
 
-<Col> <Card style={{height:'430px'}} >
-  <Card.Img variant="top"  style={{height:'195px'}}  src={images2} />
-  <Card.Body>
-    <Card.Title className={stayle1.name1}>  Java, Spring bo’yicha to’liq 
-kurs. (amaliy)</Card.Title>
-    <Card.Text>
-<div style={{display:'flex'}} className={stayle1.star1}>
-<ReactStars
-    count={5}
-    onChange={ratingChanged}
-    size={24}
-    activeColor="#ffd700"
-  />
-    <span style={{paddingTop:'8px'}}>  4.1  (564) </span>
-    <div className={stayle1.card12}>Dasturlash</div>
-    
-    <div style={{display:'flex',position:'absolute', bottom:'24px',left:'40px',right:'24px'}}> 
-<div style={{paddingLeft:'20px'}}>
-<div style={{fontSize:'14px', opacity:'0.7'}}>Kurs hajmi</div>
-<div  style={{fontSize:'18px'}}>42 soat</div>
-</div>
-<div style={{textAlign:'center',paddingLeft:'60px',paddingRight:'60px'}}>
-<div style={{fontSize:'14px', opacity:'0.7'}}>Kurs narxi</div>
-<div  style={{fontSize:'18px',}}>500.000<span style={{paddingLeft:'5px',fontSize:'18px', opacity:'0.7'}}>uzs</span></div>
-</div>
-<div>
-<Button variant="light" style={{position:'absolute',right:'0px',bottom:'0px',borderRadius:'50%',maginRight:'24px',textAlign:'right',  border: '1px solid #9DA7BB',margin:'auto'}}><i class="fa fa-arrow-right" style={{color:'#9DA7BB'}} aria-hidden="true"></i></Button> 
-    </div></div></div>
-    </Card.Text>
-    
-  </Card.Body>
-</Card></Col>
-    </Row>
-</Container></div>  
+          <Card className={stayle1.CardMe}>
+            <Card.Img variant="top" src={Card2} />
+            <Card.Body>
+              <Card.Text>
+                <b className={stayle1.CourseThemeText}>
+                  Java, Java OOP, JavaFx, JavaSpring, Spring Bot
+                </b>
+              </Card.Text>
+              <p  className={stayle1.JavaPragram}>Java</p>
 
-            </div>
-        )
-    }
+              <div className={stayle1.star2} style={{ display: "flex" }}>
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  activeColor="#ffd700"
+                />
+                <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
+              </div>
+            </Card.Body>
+            <Card.Footer className={stayle1.CardFooterMe}>
+              <div className={stayle1.CardPriceTimeSmall}>
+                <div>
+                  <div>Kurs hajmi</div>
+                  <div>
+                    <b>42 soat</b>
+                  </div>
+                </div>
+                <div>
+                  <div>Kurs narxi</div>
+                  <div>
+                    <b>500.000</b>
+                    <span>uzs</span>
+                  </div>
+                </div>
+              </div>
+            </Card.Footer>
+          </Card>
+
+          {/* thirs Card */}
+
+          <Card className={stayle1.CardMe}>
+            <Card.Img variant="top" src={Card3} />
+            <Card.Body>
+              <Card.Text>
+                <b className={stayle1.CourseThemeText}>
+                RDBMS , PostgreSQL,SQL ,Postgres security , technics
+                </b>
+              </Card.Text>
+              <p className={stayle1.JavaPragram}>Database</p>
+
+              <div className={stayle1.star2} style={{ display: "flex" }}>
+                <ReactStars
+                  count={5}
+                  onChange={ratingChanged}
+                  size={24}
+                  activeColor="#ffd700"
+                />
+                <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
+              </div>
+            </Card.Body>
+            <Card.Footer className={stayle1.CardFooterMe}>
+              <div className={stayle1.CardPriceTimeSmall}>
+                <div>
+                  <div>Kurs hajmi</div>
+                  <div>
+                    <b>42 soat</b>
+                  </div>
+                </div>
+                <div>
+                  <div>Kurs narxi</div>
+                  <div>
+                    <b>500.000</b>
+                    <span>uzs</span>
+                  </div>
+                </div>
+              </div>
+            </Card.Footer>
+          </Card>
+        </div>
+      </Container>
+    </div>
+  );
 }
