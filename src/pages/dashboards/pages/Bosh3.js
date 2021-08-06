@@ -25,7 +25,9 @@ export default class Bosh3 extends Component {
               <div className={stayle2.c1}>
                 <i
                   class="fa fa-television"
-                  style={{ color: "#10C8A0", paddingRight: "15px" }}
+                  style={{ color: "#10C8A0",
+                   paddingRight: "15px",
+                  }}
                   aria-hidden="true"
                 >
                   {" "}
@@ -82,21 +84,23 @@ export default class Bosh3 extends Component {
                 <Navbar.Collapse id="navbarScroll">
                   <Nav id={stayle2.NavbarMenuUl}>
                     <NavLink
+                      className={stayle2.NavLinkHover}
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#FFFFFF",
+                   
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
-                      to="/dasturlash"
+                      to="/"
                     >
                       Dasturlash
                     </NavLink>{" "}
                     <NavLink
+                      className={stayle2.NavLinkHover}
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#FFFFFF",
+                   
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/frondend"
@@ -104,10 +108,11 @@ export default class Bosh3 extends Component {
                       Frond-End
                     </NavLink>
                     <NavLink
+                     className={stayle2.NavLinkHover}
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#FFFFFF",
+                   
                       }}
                       activeStyle={{ color: "#FFFFFF" }}
                       to="/backend"
@@ -115,12 +120,12 @@ export default class Bosh3 extends Component {
                       Back-End
                     </NavLink>
                     <NavLink
+                    className={stayle2.NavLinkHover}
                       style={{
                         textDecoration: "none",
                         fontSize: "22px",
-                        color: "#FFFFFF",
                       }}
-                      activeStyle={{ color: "#FFFFFF" }}
+                      activeStyle={{ color: "#000000" }}
                       to="/design"
                     >
                       Design

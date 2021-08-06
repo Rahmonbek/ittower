@@ -13,17 +13,17 @@ export default class About extends Component {
         <BrowserRouter>
           <Bosh4 />
           <Switch>
-            <Route exact path="/dasturlash">
-              <Dasturlash />
-            </Route>
-            <Route exact path="/frondend">
-              <Dizayn />
+            <Route exact path="/design">
+              <Biznes />
             </Route>
             <Route exact path="/backend">
               <Marketing />
             </Route>
-            <Route exact path="/design">
-              <Biznes />
+            <Route exact path="/frondend">
+              <Dizayn />
+            </Route>
+            <Route exact path="/">
+              <Dasturlash />
             </Route>
           </Switch>{" "}
         </BrowserRouter>

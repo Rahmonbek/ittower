@@ -5,9 +5,9 @@ import images1 from "../img/image1.png";
 import images2 from "../img/image2.png";
 
 import ReactStars from "react-rating-stars-component";
-import BackEndME from "../img/backme.jpg";
-import FrondME from "../img/frondme.jpg";
-import fullstack from "../img/fullstack1.jpg";
+import BackEndME from "../img/CardD13.jpg";
+import FrondME from "../img/CardD12.png";
+import fullstack from "../img/CardD15.jpg";
 
 export default class Bosh2 extends Component {
   render() {

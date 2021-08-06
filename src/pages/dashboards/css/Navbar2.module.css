@@ -56,6 +56,15 @@ margin-top: 30px;
 border-radius: 4px;
 background: #FFFFFF;
 box-shadow: 0px 12px 30px 0px #536DFD26;
+cursor: pointer;
+
+}
+.NavLinkHover{
+    color: #FFFFFF;
+}
+.NavLinkHover:hover{
+    font-weight: bold;
+ color: black;
 
 }
 .c2{
