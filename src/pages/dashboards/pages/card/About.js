@@ -11,7 +11,7 @@ export default class About extends Component {
     return (
       <div>
         <BrowserRouter>
-          <Bosh4 />
+            <Bosh4 />
           <Switch>
             <Route exact path="/design">
               <Biznes />
