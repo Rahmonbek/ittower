@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Bosh from './pages/Bosh'
-import Bosh1 from './pages/Bosh1'
-import Bosh2 from './pages/Bosh2'
-import Footer from './pages/Footer'
-import Bosh4 from './pages/card/About'
-import Bosh5 from './pages/Bosh5'
-import Bosh6 from './pages/Bosh6'
+import Bosh from './Bosh'
+import Bosh1 from './Bosh1'
+import Bosh2 from './Bosh2'
+import Footer from './Footer'
+import Bosh4 from './card/About'
+import Bosh5 from './Bosh5'
+import Bosh6 from './Bosh6'
 import styles from './css/Menyu.module.css'
 
 export default class Menyu extends Component {

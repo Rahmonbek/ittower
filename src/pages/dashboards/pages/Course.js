@@ -13,7 +13,7 @@ import { BsChevronRight } from "react-icons/bs";
 import Staj from "../img/workTime.png";
 import Result from "../img/Res.png";
 import Win from "../img/winners.gif";
-import Footer from "../pages/Footer";
+import Footer from "./Footer";
 
 export default function Course(){
   return (  

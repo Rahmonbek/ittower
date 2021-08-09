@@ -8,9 +8,7 @@ import {
  
 } from "react-router-dom";
 import {Container,  Navbar, Nav } from "react-bootstrap";
-import Course from "./Course";
-import Home from "./Home";
-import Contact from "./Contact";
+
 import Logo from "../img/12347.png";
 
 export default function NavbarGroup() {
@@ -33,20 +31,6 @@ export default function NavbarGroup() {
     </Navbar.Collapse>
   </Container>
 </Navbar>
-          {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-          <Switch>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="/course">
-              <Course />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
-        
       </Router>
     </div>
   );

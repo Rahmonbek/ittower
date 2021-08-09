@@ -1,23 +1,21 @@
 import React,{useState,useEffect} from "react";
-import Menyu from '../pages/Menyu'
 import Bosh from '../pages/Bosh';
+import Contact from "../pages/Contact";
 
-export default function Home() {
+export default function Contact1() {
     const [isContact, setIsContact]=useState(true)
     useEffect(() =>{ 
         setTimeout(()=>{
         setIsContact(false);
       }, 2500);
       })
-
-
     return (
-        <div>     {
+        <div>
+{
             isContact==true?
             <Bosh/>:
-            <Menyu/>
-                  }
-            
+    <Contact />
+                  }            
         </div>
     )
 }

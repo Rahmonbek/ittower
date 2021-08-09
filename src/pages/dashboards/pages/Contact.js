@@ -1,11 +1,11 @@
 import React from "react";
-import Menyu from "../pages/Bosh";
+import Menyu from "./Bosh";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import { Map, Placemark, YMaps } from "react-yandex-maps";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TelegramIcon from "@material-ui/icons/Telegram";
-import Footer from "../pages/Footer";
+import Footer from "./Footer";
 import style from "../css/Navbar5.module.css";
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail'; 
 
