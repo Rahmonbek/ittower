@@ -5,8 +5,7 @@ import Bosh2 from './Bosh2'
 import Footer from './Footer'
 import Bosh4 from './card/About'
 import Bosh5 from './Bosh5'
-import Bosh6 from './Bosh6'
-import styles from './css/Menyu.module.css'
+import Bosh6 from "./Bosh6";
 
 export default class Menyu extends Component {
   render() {
