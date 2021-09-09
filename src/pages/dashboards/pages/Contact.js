@@ -8,10 +8,11 @@ import TelegramIcon from "@material-ui/icons/Telegram";
 import Footer from "./Footer";
 import style from "../css/Navbar5.module.css";
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail'; 
-
+import Bosh from './Bosh'
 export default function Contact() {
   return (
     <div>
+      <Bosh/>
       <Menyu />
       <Card
         className={style.mobil}

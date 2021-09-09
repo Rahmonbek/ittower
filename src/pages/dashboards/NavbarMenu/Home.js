@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import Menyu from '../pages/Menyu'
 import Bosh from '../pages/Bosh';
+import Loader from "./Loader";
 
 export default function Home() {
     const [isContact, setIsContact]=useState(true)
@@ -14,7 +15,7 @@ export default function Home() {
     return (
         <div>     {
             isContact==true?
-            <Bosh/>:
+            <Loader/>:
             <Menyu/>
                   }
             

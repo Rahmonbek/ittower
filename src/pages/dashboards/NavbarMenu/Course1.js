@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react";
 import Bosh from '../pages/Bosh';
-
+import  Loader  from "../NavbarMenu/Loader";
 import Course from "../pages/Course";
 
 export default function Course1() {
@@ -13,10 +13,10 @@ export default function Course1() {
     return (
         <div>
       {
-            isContact==true?
-            <Bosh/>:
-            
-            <Course/>  
+            isContact==true?(<Loader/> )
+           :(
+            <Course/>
+              )
           
 
       }               

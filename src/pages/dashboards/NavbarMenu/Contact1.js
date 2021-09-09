@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import Bosh from '../pages/Bosh';
 import Contact from "../pages/Contact";
+import Loader from "./Loader";
 
 export default function Contact1() {
     const [isContact, setIsContact]=useState(true)
@@ -13,7 +14,7 @@ export default function Contact1() {
         <div>
 {
             isContact==true?
-            <Bosh/>:
+          <Loader/> : 
     <Contact />
                   }            
         </div>
