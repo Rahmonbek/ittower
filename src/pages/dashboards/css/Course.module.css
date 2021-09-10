@@ -192,7 +192,8 @@
     .CoureselImg{
         width: 100%;
         height: 200px;
-        margin-top: 30px;
+        padding-top: 30px;
+        margin-top: -30px;
         background: url(../img/brand4.jpg);
         
     }

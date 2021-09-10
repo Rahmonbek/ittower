@@ -122,7 +122,7 @@ export default class Bosh6 extends Component {
                     O’zbekistondagi zamonaviy kasblarni o’rgatuvchi ilg’or
                     ta'lim markazi. Sizga eng kerakli zamonaviy kasb va
                     bilimlarni o’rgatadigan maskan. Bu yerda Web Dasturlash,
-                    Frond-End, Back-End, kabi
+                    Frond-End,kabi
                     yo'nalishlarning birida o'qib, zamonaviy kasblarning
                     mutaxassisi bo’lishingiz mumkin.
                   </p>
