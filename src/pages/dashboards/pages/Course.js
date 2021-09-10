@@ -18,7 +18,6 @@ import Bosh from './Bosh'
 export default function Course(){
   return (  <div><Bosh/>
     <div className = {styles.HeaderMenu}>
-     
         <div className = {styles.BodyMenu}>
           <div className = {styles.CoureselImg}>
             <p className = {styles.TextMeGroup}>
