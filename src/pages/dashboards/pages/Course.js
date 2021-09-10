@@ -14,11 +14,10 @@ import Staj from "../img/workTime.png";
 import Result from "../img/Res.png";
 import Win from "../img/winners.gif";
 import Footer from "./Footer";
-
+import Bosh from './Bosh'
 export default function Course(){
-  return (  
+  return (  <div><Bosh/>
     <div className = {styles.HeaderMenu}>
-     
         <div className = {styles.BodyMenu}>
           <div className = {styles.CoureselImg}>
             <p className = {styles.TextMeGroup}>
@@ -250,6 +249,6 @@ export default function Course(){
       <div>
         <Footer />
       </div>
-    </div>
+    </div></div>
   );
 }

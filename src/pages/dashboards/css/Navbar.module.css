@@ -9,7 +9,7 @@
     height: 600px;
     background-color: #536DFD;
     display: flex;
-    margin-top: 115px;
+    margin-top: 100px;
     
 } 
 .VideoKhaby{
@@ -44,7 +44,7 @@
     width: 50%;
     height: 100%;
     margin-left: 100px;
-    margin-left: 0px;
+   
 }
 .TextHeaderMenuH1{
     
@@ -220,16 +220,23 @@ cursor: pointer;
    
     .HeaderMenu{
         height: 400px;
-        background-color: green;
+       
         background: url(../img/brand6.jpg);
-
+      
     }
-   
+    .TextHeaderMenu{
+        position: relative;
+        top: -20px;
+        width: 100%;
+        height: 100%;
+        background-color: #536cfdb6;
+    }
     .TextHeaderMenuH1{
+        
         font-size: 25px;
         line-height: 60px;
         margin-top: 20px;
-        color: #000000;
+        color: #fffff;
         margin-left: 20px;
         }
         .CardMe4{

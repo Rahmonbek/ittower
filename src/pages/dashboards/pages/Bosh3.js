@@ -17,7 +17,7 @@ export default class Bosh3 extends Component {
       <div>
         <div className={stayle2.bosh}>
           <div className={stayle2.title}>
-            <p > Top kategoriyalar</p>
+            <p style={{paddingTop:'20px'}} > Top kategoriyalar</p>
           </div>
 
           <Row className={stayle2.RowMeTop} lg={4} md={2} sm={1}>
