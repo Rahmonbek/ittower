@@ -19,12 +19,12 @@ export default class Dizayn extends Component {
         <div className={stayle1.CardOutMe}>
           <Card className={stayle1.CardMe}>
             <Card.Img variant="top" src={Card3} />
-            <p className={stayle1.JavaPragramF}>Frond-End</p>
+            <p className={stayle1.JavaPragramF}>Web design</p>
 
             <Card.Body>
               <Card.Text>
                 <b className={stayle1.CourseThemeText}>
-                 Html, Css, Bootstrap, JavaScript, jQuery, ajax
+                 Html, Css, Bootstrap, 
                 </b>
               </Card.Text>
               <div className={stayle1.star2} style={{ display: "flex" }}>
@@ -60,12 +60,12 @@ export default class Dizayn extends Component {
 
           <Card className={stayle1.CardMe}>
             <Card.Img variant="top" src={Card1} />
-            <p  className={stayle1.JavaPragramF}>Back-End</p>
+            <p  className={stayle1.JavaPragramF}>Frond-End</p>
 
             <Card.Body>
               <Card.Text>
                 <b className={stayle1.CourseThemeText}>
-                  PHP, Python, Django, Api, Git/GitHub
+                JavaScript, jQuery, Ajax
                 </b>
               </Card.Text>
 
@@ -102,12 +102,12 @@ export default class Dizayn extends Component {
 
           <Card className={stayle1.CardMe}>
             <Card.Img variant="top" src={Card2} />
-            <p className={stayle1.JavaPragramF}>Database</p>
+            <p className={stayle1.JavaPragramF}>Frond-end</p>
 
             <Card.Body>
               <Card.Text>
                 <b className={stayle1.CourseThemeText}>
-                RDBMS , PostgreSQL,SQL ,Postgres security , technics
+                React js, Axios , React Hooks,
                 </b>
               </Card.Text>
 

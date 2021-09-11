@@ -22,10 +22,10 @@ export default class Dizayn extends Component {
               <Card.Body>
                 <Card.Text>
                   <b className={stayle1.CourseThemeText}>
-                    C# syntax, ASP.NET,Computer architecture, .NET 
+                  C, C++, Github
                   </b>
                 </Card.Text>
-                <p className={stayle1.JavaPragram}>C#</p>
+                <p className={stayle1.JavaPragram}>C++</p>
                 <div className={stayle1.star2} style={{ display: "flex" }}>
                   <ReactStars
                     count={5}
@@ -62,10 +62,10 @@ export default class Dizayn extends Component {
               <Card.Body>
                 <Card.Text>
                   <b className={stayle1.CourseThemeText}>
-                    C, C++, Java, Python, Data Structures, Github
+                    Python, Github,Roboto-texnika, Xavfsizlik
                   </b>
                 </Card.Text>
-                <p className={stayle1.JavaPragram}>C++</p>
+                <p className={stayle1.JavaPragram}>Python</p>
 
                 <div className={stayle1.star2} style={{ display: "flex" }}>
                   <ReactStars

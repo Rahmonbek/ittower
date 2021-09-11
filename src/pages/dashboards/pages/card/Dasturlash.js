@@ -21,7 +21,7 @@ export default function Dasturlash() {
             <Card.Body>
               <Card.Text>
                 <b className={stayle1.CourseThemeText}>
-                 Frontend Dev, Java Dev, Database Dev, Spring Dev, 
+                 Frontend Dev, PHP, Python, Database Dev, Spring Dev, 
                 </b>
               </Card.Text>
               <p className={stayle1.JavaPragram}>Full-Stack</p>
@@ -61,10 +61,10 @@ export default function Dasturlash() {
             <Card.Body>
               <Card.Text>
                 <b className={stayle1.CourseThemeText}>
-                  Java, Java OOP, JavaFx, JavaSpring, Spring Bot
+                Html, Css, Bootstrap, JavaScript, jQuery, ajax, React, Axios, Ant design 
                 </b>
               </Card.Text>
-              <p  className={stayle1.JavaPragram}>Java</p>
+              <p  className={stayle1.JavaPragram}>Frond-end</p>
 
               <div className={stayle1.star2} style={{ display: "flex" }}>
                 <ReactStars
@@ -102,10 +102,10 @@ export default function Dasturlash() {
             <Card.Body>
               <Card.Text>
                 <b className={stayle1.CourseThemeText}>
-                RDBMS , PostgreSQL,SQL ,Postgres security , technics
+                PHP, Python, Django, Api, Git/GitHub
                 </b>
               </Card.Text>
-              <p className={stayle1.JavaPragram}>Database</p>
+              <p className={stayle1.JavaPragram}>Back-end</p>
 
               <div className={stayle1.star2} style={{ display: "flex" }}>
                 <ReactStars

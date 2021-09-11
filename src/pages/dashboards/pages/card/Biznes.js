@@ -17,52 +17,19 @@ export default class Biznes extends Component {
 
         <Container>
           <div className={stayle1.CardOutMeDesign}>
-            <Card className={stayle1.CardMeDesign}>
-              <Card.Img variant="top" src={images4} />
-              <Card.Body>
-                <Card.Text>
-                  <b className={stayle1.CourseThemeText}>
-                  Illustrator boshlang’ichdan proffessionalgacha to'liq kafolat beramiz                  </b>
-                </Card.Text>
-                <div className={stayle1.star2} style={{ display: "flex" }}>
-                  <ReactStars
-                    count={5}
-                    onChange={ratingChanged}
-                    size={24}
-                    activeColor="#ffd700"
-                  />
-                  <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
-                </div>
-              </Card.Body>
-              <Card.Footer className={stayle1.CardFooterMe}>
-                <div className={stayle1.CardPriceTimeSmall}>
-                  <div>
-                    <div>Kurs hajmi</div>
-                    <div>
-                      <b>42 soat</b>
-                    </div>
-                  </div>
-                  <div>
-                    <div>Kurs narxi</div>
-                    <div>
-                      <b>500.000</b>
-                      <span>uzs</span>
-                    </div>
-                  </div>
-                </div>
-              </Card.Footer>
-            </Card>
+           
 
             {/* Second Card */}
 
-            <Card className={stayle1.CardMeDesign}>
-              <Card.Img variant="top" src={images3} />
+            <Card className={stayle1.CardMe}>
+              <Card.Img variant="top" src={images4}/>
               <Card.Body>
                 <Card.Text>
                   <b className={stayle1.CourseThemeText}>
-                    Figma, Html, Css, Material-UI, UI/UX Design 
+                 Flutter,Android
                   </b>
                 </Card.Text>
+                <p className={stayle1.JavaPragram}>Mobil design</p>
 
                 <div className={stayle1.star2} style={{ display: "flex" }}>
                   <ReactStars
@@ -92,6 +59,86 @@ export default class Biznes extends Component {
                 </div>
               </Card.Footer>
             </Card>
+            <Card className={stayle1.CardMe}>
+              <Card.Img variant="top" src={images3}/>
+              <Card.Body>
+                <Card.Text>
+                  <b className={stayle1.CourseThemeText}>
+                  Illustrator boshlang’ichdan proffessionalgacha to'liq kafolat beramiz  
+                  </b>
+                </Card.Text>
+                <p className={stayle1.JavaPragram}>Ideal design</p>
+
+                <div className={stayle1.star2} style={{ display: "flex" }}>
+                  <ReactStars
+                    count={5}
+                    onChange={ratingChanged}
+                    size={24}
+                    activeColor="#ffd700"
+                  />
+                  <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
+                </div>
+              </Card.Body>
+              <Card.Footer className={stayle1.CardFooterMe}>
+                <div className={stayle1.CardPriceTimeSmall}>
+                  <div>
+                    <div>Kurs hajmi</div>
+                    <div>
+                      <b>42 soat</b>
+                    </div>
+                  </div>
+                  <div>
+                    <div>Kurs narxi</div>
+                    <div>
+                      <b>500.000</b>
+                      <span>uzs</span>
+                    </div>
+                  </div>
+                </div>
+              </Card.Footer>
+            </Card>
+
+            <Card className={stayle1.CardMe}>
+              <Card.Img variant="top" src={images3}/>
+              <Card.Body>
+                <Card.Text>
+                  <b className={stayle1.CourseThemeText}>
+                  Figma, Html, Css, Material-UI, UI/UX Design 
+                  </b>
+                </Card.Text>
+                <p className={stayle1.JavaPragram}>Web Design</p>
+
+                <div className={stayle1.star2} style={{ display: "flex" }}>
+                  <ReactStars
+                    count={5}
+                    onChange={ratingChanged}
+                    size={24}
+                    activeColor="#ffd700"
+                  />
+                  <span style={{ paddingTop: "8px" }}> 4.1 (564) </span>
+                </div>
+              </Card.Body>
+              <Card.Footer className={stayle1.CardFooterMe}>
+                <div className={stayle1.CardPriceTimeSmall}>
+                  <div>
+                    <div>Kurs hajmi</div>
+                    <div>
+                      <b>42 soat</b>
+                    </div>
+                  </div>
+                  <div>
+                    <div>Kurs narxi</div>
+                    <div>
+                      <b>500.000</b>
+                      <span>uzs</span>
+                    </div>
+                  </div>
+                </div>
+              </Card.Footer>
+            </Card>
+
+
+
           </div>
         </Container>
       </div>

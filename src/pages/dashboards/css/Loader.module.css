@@ -13,12 +13,12 @@
   color: aliceblue;
   font-size: 30px;
   padding-top: 60px;
-  padding-left: 20px;
+ 
 }
 .loader {
   width: 10em;
   height: 10em;
-  font-size: 25px;
+  font-size: 15px;
   box-sizing: border-box;
   border-top: 0.3em solid rgb(21, 4, 85);
   border-radius: 50%;

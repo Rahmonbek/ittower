@@ -11,13 +11,13 @@ export default class Menyu extends Component {
   render() {
     return (
       <div> 
-        <Bosh />
-        <Bosh1 />
-        <Bosh2 />
+        <Bosh/>
+        <Bosh1/>
+        <Bosh2/>
         <Bosh4 />
-        <Bosh5 />
-        <Bosh6 />
-        <Footer />
+        <Bosh5/>
+        <Bosh6/>
+       <Footer/>
             </div>
     )
   }

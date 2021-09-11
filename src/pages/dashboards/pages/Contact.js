@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import style from "../css/Navbar5.module.css";
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail'; 
 import Bosh from './Bosh'
+import YouTubeIcon from '@material-ui/icons/YouTube';
 export default function Contact() {
   return (
     <div>
@@ -56,8 +57,9 @@ export default function Contact() {
                       width: "40px",
                       height: "40px",
                     }}
-                  />
-                  +998 99 934-97-07
+                   
+                  /><a href='tel:+998999349707' style={{color:'black'}}>
+                  +998 99 934-97-07</a>
                 </div>
                 <div style={{ width:'300px', display:'flex', fontSize: "23px", height:'40px' }}>
                   <PhoneIcon
@@ -66,8 +68,8 @@ export default function Contact() {
                       width: "40px",
                       height: "40px",
                     }}
-                  />
-                  +998 95 007-06-50
+                  /><a href='tel:+998999349707' style={{color:'black'}}>
+                  +998 95 007-06-50</a>
                 </div>
               </Col>
               <Col>
@@ -80,8 +82,9 @@ export default function Contact() {
                     }}
                   />
                   <a
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: "none",color:'black' }}
                     href="https://t.me/IT_tower"
+
                   >
                     @IT_tower
                   </a>
@@ -94,7 +97,9 @@ export default function Contact() {
                       height: "40px",
                     }}
                   />
-                  <a  href="https://www.instagram.com/it_tower_academy/">
+                  <a 
+                   style={{ textDecoration: "none",color:'black' }}
+                    href="https://www.instagram.com/it_tower_academy/">
                     @it_tower_academy
                   </a>
                 </div>
@@ -108,10 +113,26 @@ export default function Contact() {
                       height: "40px",
                     }}
               />
-               <a  href="ittower01@gmail.com">
+               <a
+                style={{ textDecoration: "none",color:'black' }}  
+               href="mailto:ittower01@gmail.com">
                ittower01@gmail.com
                   </a></div>
+                  <div style={{width:'300px', display:'flex', fontSize: "23px", height:'40px' }}>
+              < YouTubeIcon 
+               style={{
+                      paddingRight: "10px",
+                      width: "40px",
+                      height: "40px",
+                    }}
+              />
+               <a
+                style={{ textDecoration: "none",color:'black' }}  
+               href="https://www.youtube.com/watch?v=WFsBZ8iYpv0t=158s">
+               IT_tower
+                  </a></div>
               </Col>
+              
             </Row></Container>
             <h2 style={{ paddingTop: "50px" }}>
               Manzil: Yakkasaroy Maxalla kometiteti 2-qavat IT Tower o`quv markazi  
