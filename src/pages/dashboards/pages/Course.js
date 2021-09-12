@@ -209,7 +209,7 @@ export default function Course(){
                   e'tiborga olingan holda eng yaxshi sertifikatlar beriladi.
                 </p>
                 <p
-                  style={{ width: "100%", height: "300px",scale:'0.75' }}
+                  style={{ width: "100%", height: "300px",scale:'0.75',position:'relative',top:'-20px' }}
                   className={styles.ThreeCardImgme}
                 >
                   <img

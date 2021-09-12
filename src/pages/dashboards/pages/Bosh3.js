@@ -20,7 +20,7 @@ export default class Bosh3 extends Component {
             <p style={{paddingTop:'20px'}} > Top kategoriyalar</p>
           </div>
 
-          <Row className={stayle2.RowMeTop} lg={4} md={2} sm={1}>
+          <Row className={stayle2.RowMeTop} lg={4} md={1} sm={1}>
             <Col>
               <div className={stayle2.c1}>
                 <i
@@ -74,7 +74,13 @@ export default class Bosh3 extends Component {
             </Col>
           </Row>
 
-          <Navbar className={stayle2.Navbar} expand="lg">
+
+
+
+
+
+          
+        </div><Navbar className={stayle2.Navbar} expand="lg">
             <Container>
               <div className={stayle2.ContainerMenu}>
                 <Navbar.Toggle
@@ -82,7 +88,7 @@ export default class Bosh3 extends Component {
                   aria-controls="navbarScroll"
                 />
                 <Navbar.Collapse id="navbarScroll">
-                  <Nav id={stayle2.NavbarMenuUl}>
+                  <Nav id={stayle2.NavbarMenuUl} >
                     <NavLink
                       className={stayle2.NavLinkHover}
                       style={{
@@ -135,7 +141,6 @@ export default class Bosh3 extends Component {
               </div>
             </Container>
           </Navbar>
-        </div>
       </div>
     );
   }

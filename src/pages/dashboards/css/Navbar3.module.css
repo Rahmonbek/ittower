@@ -79,6 +79,7 @@ text-align:center;
 
 }
 .CardOutMe{
+    position: relative;
     width: 100%;
     height: auto;
     margin-top: 50px;
@@ -136,6 +137,7 @@ text-align:center;
 
 @media(max-width:767px){
     .CardMe{
+        position: relative;
         width: 100%;
         display: block;
         margin: 20px;
@@ -157,9 +159,7 @@ text-align:center;
         width: 100%;
         margin: auto;
     }
-    .JavaPragram{
-        display: none; 
-    }
+   
     .JavaPragramF{
         display: none;
 
@@ -168,6 +168,7 @@ text-align:center;
 
 @media(min-width:768px) and (max-width:1023px){
     .CardMe{
+        position: relative;
         width: 47%;
         display: block;
         display: inline-block;
@@ -185,9 +186,7 @@ text-align:center;
         box-sizing: border-box;
         
     }
-    .JavaPragram{
-        display: none;
-    }
+   
     .JavaPragramF{
         display: none;
 

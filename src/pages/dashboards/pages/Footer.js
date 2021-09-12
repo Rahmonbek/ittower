@@ -3,10 +3,13 @@ import styles from "../css/Footer.module.css";
 import payme from "../img/payme.png";
 import click from "../img/click.png";
 import upay from "../img/upay.png";
-
-
+import TelegramIcon from '@material-ui/icons/Telegram';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import MailIcon from '@material-ui/icons/Mail';
 import { Container, Row, Col, Button } from "react-bootstrap";
-
+import InstagramFilled, { InstagramOutlined } from  "@ant-design/icons"
+import instagramm from '../img/instagramm.png' 
+import { Instagram } from "@material-ui/icons";
 export default class Footer extends Component {
   render() {
     return (
@@ -37,29 +40,29 @@ export default class Footer extends Component {
                     <a
                       href="https://t.me/IT_tower"
                       target="_blank"
-                      style={{ color: "#FFFFFF", backgroundColor: "#259CD8" }}
                     >
-                      <i class="fab fa-telegram-plane"></i>
+                        <TelegramIcon id={styles.tSites} />
                     </a>
-                    <a
-                      href="ittower01@gmail.com"
+                    <a 
+                      href="mailto:ittower01@gmail.com"
                       target="_blank"
-                      
+                      style={{padding:'3px' }}
                     >
-                      <i id={styles.fSites} class="far fa-envelope"></i>
+                      <MailIcon id={styles.mSites}  />
                     </a>
-                    <a
+                    <a  
                       href="https://www.instagram.com/it_tower_academy/"
-                      className={styles.instagramIcon}
-                    >
-                      <i id={styles.iSites} class="fab fa-instagram"></i>
+                
+                      
+                    ><InstagramOutlined id={styles.iSites} />
+                     
                     </a>
                     <a
                       href="https://youtube.com"
                       target="_blank"
-                      style={{ color: "#FE0000", backgroundColor: "#FFFFFF" }}
+                    
                     >
-                      <i class="fab fa-youtube"></i>
+                     <YouTubeIcon  id={styles.ySites} />
                     </a>
                   </div>
                 </ul>

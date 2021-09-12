@@ -4,6 +4,8 @@ import stayle1 from "../../css/Navbar3.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import images3 from "../../img/image3.png";
 import images4 from "../../img/image4.png";
+import img from '../../img/graphic.jpg'
+
 import ReactStars from "react-rating-stars-component";
 
 export default class Biznes extends Component {
@@ -67,7 +69,7 @@ export default class Biznes extends Component {
                   Illustrator boshlang’ichdan proffessionalgacha to'liq kafolat beramiz  
                   </b>
                 </Card.Text>
-                <p className={stayle1.JavaPragram}>Ideal design</p>
+                <p className={stayle1.JavaPragram}>Professonal </p>
 
                 <div className={stayle1.star2} style={{ display: "flex" }}>
                   <ReactStars
@@ -99,7 +101,7 @@ export default class Biznes extends Component {
             </Card>
 
             <Card className={stayle1.CardMe}>
-              <Card.Img variant="top" src={images3}/>
+              <Card.Img variant="top" src={img}/>
               <Card.Body>
                 <Card.Text>
                   <b className={stayle1.CourseThemeText}>

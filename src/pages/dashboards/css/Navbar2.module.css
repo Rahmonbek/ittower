@@ -2,9 +2,7 @@
 position:relative;
 background-color: #E5E5E5;
 width: 100%;
-height: auto;
 overflow-x: hidden;
-
 } 
 .title{
     margin: auto;
@@ -56,6 +54,7 @@ cursor: pointer;
 }
 .NavLinkHover{
     color: #FFFFFF;
+    padding-left: 13%;
 }
 .NavLinkHover:hover{
     font-weight: bold;
@@ -74,13 +73,14 @@ top: 370px;
 }
 #NavbarMenuUl{
     width: 100%;
-    justify-content: space-around;
-    
+height: auto;
+ color:red;  
+
 }
 .Navbar{
     margin: auto;
     text-align:center;
-    background-color: #16a085;
+    background-color: rgba(63, 63, 197, 0.746);
 }
 .ContainerMenu{
     width:100%;
@@ -95,16 +95,14 @@ top: 370px;
     }
     #NavbarMenuUl{
         z-index: 1;
+        width: 400px;
         color: white;
         border-radius: 4px;
         position: absolute;
-        width: 200px;
-        height: 210px;
         overflow-x: hidden;
         text-align: center;
-        margin-top: 10px;
-        background-color: #1E1E1E;
-    
+     
+        background-color: rgba(0, 0, 0, 0.753);
     }
 }
 @media(max-width:767px) {
@@ -116,6 +114,7 @@ top: 370px;
     }
     .RowMeTop{
         text-align: center;
+        display: block;
     }
     .c1{
         margin: auto;
@@ -128,10 +127,8 @@ top: 370px;
         border-radius: 4px;
         position: absolute;
         width: 200px;
-        height: 210px;
         margin: auto;
         margin-top: 20px;
-        margin-left: 25%;
         background-color: rgb(50, 60, 63);
     
     }
