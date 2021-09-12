@@ -1,3 +1,9 @@
+
+
+body{
+    overflow-x: hidden;
+}
+
 .titler{
 text-align: center;
 padding-top:50px;
@@ -78,12 +84,22 @@ padding-top: 100px;
 @media (max-width:991px){
     .cor img{ 
 height:250px; 
-  
     }
 }
 @media (max-width:991px){
     .cor { 
         width: 400px;
+ font-size:10px;       
+    }
+}
+@media (max-width:400px){
+
+    .titler{
+        font-size: 18px;
+    }
+    .cor { 
+
+        width: 300px;
  font-size:10px;       
     }
 }

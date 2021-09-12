@@ -74,13 +74,12 @@ top: 370px;
 #NavbarMenuUl{
     width: 100%;
 height: auto;
- color:red;  
-
+ color:red;   
 }
 .Navbar{
     margin: auto;
     text-align:center;
-    background-color: rgba(63, 63, 197, 0.746);
+    background-color: #2510dda4;
 }
 .ContainerMenu{
     width:100%;

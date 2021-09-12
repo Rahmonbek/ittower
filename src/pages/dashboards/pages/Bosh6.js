@@ -11,6 +11,7 @@ export default class Bosh6 extends Component {
         <div
           className={stayle5.all}
           style={{
+            overflowX:'hidden',
             paddingBottom: "100px",
             margin: "auto",
             textAlign: "center",

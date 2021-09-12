@@ -16,10 +16,10 @@ export default function NavbarGroup() {
     <div>
       <Router>
      
-      <Navbar className={menyu.Navbar1} fixed="top" bg="light" expand="lg">
+      <Navbar className={menyu.Navbar1} fixed="top" bg="light"  expand="lg">
   <Container>
     <Navbar.Brand href="#"> <img  className={menyu.BrandImg} src={Logo}></img></Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle aria-controls="basic-navbar-nav" style={{margin:'20px',marginRight:'40px'}} />
     <Navbar.Collapse id="basic-navbar-nav">
       
       <Nav id={menyu.Nav1} className="me-auto">

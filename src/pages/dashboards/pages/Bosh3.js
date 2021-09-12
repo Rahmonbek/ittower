@@ -20,7 +20,7 @@ export default class Bosh3 extends Component {
             <p style={{paddingTop:'20px'}} > Top kategoriyalar</p>
           </div>
 
-          <Row className={stayle2.RowMeTop} lg={4} md={1} sm={1}>
+          <Row className={stayle2.RowMeTop} style={{margin:'auto',aliginItem:'center'}} lg={4} md={1} sm={1}>
             <Col>
               <div className={stayle2.c1}>
                 <i
