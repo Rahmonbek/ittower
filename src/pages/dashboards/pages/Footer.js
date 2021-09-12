@@ -13,7 +13,7 @@ import { Instagram } from "@material-ui/icons";
 export default class Footer extends Component {
   render() {
     return (
-      <div>
+      <div style={{overflowX:'hidden'}}>
         <div className={styles.footer_top}></div>
         
         <div className={styles.headers}>
@@ -135,9 +135,8 @@ export default class Footer extends Component {
               </Col>
 
               <div className={styles.footerText}>
-                <p>
-                  © 2019 storm.uz | Personel Development Process LLC |
-                  Foydalanish shartlari{" "}
+                <p style={{position:'relative',right:'20px'}}>
+                  © 2021 | Toshkent IT Tower by Abbas
                 </p>
               </div>
             </Row>

@@ -176,7 +176,7 @@ border-radius: 4px;
 
 .headers{
     width: 100%;
-    height: 380px;
+   
     background-color: white;
 }
 .BlackHole{
@@ -186,7 +186,7 @@ border-radius: 4px;
 }
 .navbar{
     width: 100%;
-    height: 380px;
+    
     display: flex;
     justify-content: space-between;
 }
