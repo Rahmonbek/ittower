@@ -74,7 +74,7 @@ top: 370px;
 #NavbarMenuUl{
     width: 100%;
 height: auto;
- color:red;   
+  
 }
 .Navbar{
     margin: auto;
@@ -85,7 +85,7 @@ height: auto;
     width:100%;
 }
 
-@media(min-width:768px) and (max-width:1023px){
+@media(min-width:756px) and (max-width:991px){
     .NavbarMenu{
         color: red;
         background-color: white;
@@ -94,14 +94,16 @@ height: auto;
     }
     #NavbarMenuUl{
         z-index: 1;
-        width: 400px;
+        width: 60%;
         color: white;
         border-radius: 4px;
         position: absolute;
         overflow-x: hidden;
         text-align: center;
-     
-        background-color: rgba(0, 0, 0, 0.753);
+     padding:20px;
+     font-size: 24px;
+     text-shadow: 0px 0px 40px white;
+        background-color:rgba(13, 0, 59, 0.781);
     }
 }
 @media(max-width:767px) {
@@ -122,13 +124,16 @@ height: auto;
     }
     #NavbarMenuUl{
         z-index: 1;
+        width: 60%;
         color: white;
         border-radius: 4px;
         position: absolute;
-        width: 200px;
-        margin: auto;
-        margin-top: 20px;
-        background-color: rgb(50, 60, 63);
+        overflow-x: hidden;
+        text-align: center;
+     padding:20px;
+     font-size: 24px;
+     text-shadow: 0px 0px 40px white;
+        background-color:rgba(13, 0, 59, 0.781);
     
     }
     

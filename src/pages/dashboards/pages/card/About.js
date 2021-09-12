@@ -25,7 +25,7 @@ export default class About extends Component {
             <Route exact path="/">
               <Dasturlash />
             </Route>
-          </Switch>{" "}
+          </Switch>
         </BrowserRouter>
       </div>
     );

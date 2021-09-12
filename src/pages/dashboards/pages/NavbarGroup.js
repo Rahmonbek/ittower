@@ -23,9 +23,9 @@ export default function NavbarGroup() {
     <Navbar.Collapse id="basic-navbar-nav">
       
       <Nav id={menyu.Nav1} className="me-auto">
-        <Nav.Link  className={menyu.Nav2} href="/">Bosh sahifa</Nav.Link>
-        <Nav.Link className={menyu.Nav2}  href="/course">Kurslarimiz</Nav.Link>
-        <Nav.Link className={menyu.Nav2}   href="/contact">Biz bilan bog`lanish</Nav.Link>
+        <Nav.Link  ><Link className={menyu.Nav2} to="/">Bosh sahifa</Link></Nav.Link>
+        <Nav.Link ><Link className={menyu.Nav2}  to="/course">Kurslarimiz</Link></Nav.Link>
+        <Nav.Link > <Link className={menyu.Nav2}   to="/contact"> Biz bilan bog`lanish</Link></Nav.Link>
        </Nav> 
        
     </Navbar.Collapse>
