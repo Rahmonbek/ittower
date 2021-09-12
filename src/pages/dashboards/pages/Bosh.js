@@ -2,9 +2,8 @@ import React from "react";
 import menyu from "../css/NavbarGroup.module.css";
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
+ 
+  NavLink,
  
 } from "react-router-dom";
 import {Container,  Navbar, Nav } from "react-bootstrap";
@@ -22,11 +21,12 @@ export default function NavbarGroup() {
     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{margin:'20px',marginRight:'40px'}} />
     <Navbar.Collapse id="basic-navbar-nav">
       
-    <Nav id={menyu.Nav1} className="me-auto">
-        <Nav.Link  ><Link className={menyu.Nav2} to="/">Bosh sahifa</Link></Nav.Link>
-        <Nav.Link ><Link className={menyu.Nav2}  to="/course">Kurslarimiz</Link></Nav.Link>
-        <Nav.Link > <Link className={menyu.Nav2}   to="/contact"> Biz bilan bog`lanish</Link></Nav.Link>
+      <Nav id={menyu.Nav1} className="me-auto">
+        <NavLink className={menyu.Nav2} to="/">Bosh sahifa</NavLink>
+        <NavLink className={menyu.Nav2}  to="/course">Kurslarimiz</NavLink>
+        <NavLink className={menyu.Nav2}   to="/contact">Biz bilan bog`lanish</NavLink>
        </Nav> 
+       
     </Navbar.Collapse>
   </Container>
 </Navbar>
