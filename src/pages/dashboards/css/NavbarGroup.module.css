@@ -9,6 +9,7 @@ margin-left: auto;
 }
 
 #Nav1 .Nav2{
+    color: rgba(27, 27, 27, 0.63);
     font-size: 23px;
     padding-left: 60px;
     font-weight: 600;
@@ -16,7 +17,7 @@ margin-left: auto;
 
 @media(max-width:991px){
     #Nav1{
-        
+        padding:20px;
         margin:auto;
         align-items: right;
         border-radius: 5px;
@@ -24,6 +25,7 @@ margin-left: auto;
         background-color: rgba(13, 0, 59, 0.781);
         }
         #Nav1 .Nav2{
+            padding:10px;
             margin: auto;
             text-align: center;
             font-size: 24px;
