@@ -9,11 +9,12 @@ import {
 import {Container,  Navbar, Nav } from "react-bootstrap";
 
 import Logo from "../img/12347.png";
+import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function NavbarGroup() {
   return (
     <div>
-     
+     <Router>
       <Navbar className={menyu.Navbar1} fixed="top" bg="light"  expand="lg">
   <Container>
     <Navbar.Brand href="#"> <img  className={menyu.BrandImg} src={Logo}></img></Navbar.Brand>
@@ -29,7 +30,7 @@ export default function NavbarGroup() {
     </Navbar.Collapse>
   </Container>
 </Navbar>
-      
+      </Router>
     </div>
   );
 }
