@@ -60,76 +60,7 @@ export default class Bosh6 extends Component {
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block w-100" src={oq} alt="Third slide" />
-
-                <Carousel.Caption>
-                  <p
-                    style={{
-                      color: "black",
-                      textAlign: "center",
-                      fontSize: "18px",
-                    }}
-                  >
-                    <b>Xayitov Murodilla</b>
-                  </p>
-                  <p
-                    style={{
-                      color: "#536DFD",
-                      textAlign: "center",
-                      fontSize: "18px",
-                    }}
-                  >
-                    Senior Developer
-                  </p>
-
-                  <p style={{ color: "black", textAlign: "center" }}>
-                    IT-Tower – qisqa vaqt ichida yuqori natijalarga erishgan,
-                    O’zbekistondagi zamonaviy kasblarni o’rgatuvchi ilg’or
-                    ta'lim markazi. Sizga eng kerakli zamonaviy kasb va
-                    bilimlarni o’rgatadigan maskan. Bu yerda Web Dasturlash,
-                    Frond-End, Back-End kabi
-                    yo'nalishlarning birida o'qib, zamonaviy kasblarning
-                    mutaxassisi bo’lishingiz mumkin.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-
-              <Carousel.Item>
-                <img className="d-block w-100" src={oq} alt="Third slide" />
-
-                <Carousel.Caption>
-                  <p
-                    style={{
-                      color: "black",
-                      textAlign: "center",
-                      fontSize: "18px",
-                    }}
-                  >
-                    Abbosbek
-                  </p>
-                  <p
-                    style={{
-                      color: "#536DFD",
-                      textAlign: "center",
-                      fontSize: "18px",
-                    }}
-                  >
-                    Senior Developer
-                  </p>
-
-                  <p style={{ color: "black", textAlign: "center" }}>
-                    IT-Tower – qisqa vaqt ichida yuqori natijalarga erishgan,
-                    O’zbekistondagi zamonaviy kasblarni o’rgatuvchi ilg’or
-                    ta'lim markazi. Sizga eng kerakli zamonaviy kasb va
-                    bilimlarni o’rgatadigan maskan. Bu yerda Web Dasturlash,
-                    Frond-End,kabi
-                    yo'nalishlarning birida o'qib, zamonaviy kasblarning
-                    mutaxassisi bo’lishingiz mumkin.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
+                         </Carousel>
           </div>
         </div>
       </div>
