@@ -14,15 +14,15 @@ color: #2E2E2E;
 
 }
 .activebutton button:active{
-    background-color:#536DFD;
+    background-color:#120c3b;
 
 }
 .card2:hover{
-    box-shadow: 0px 12px 45px 0px #536DFD40;  
+    box-shadow: 0px 12px 45px 0px #120c3b40;  
     scale: 1.05;
 }
 .card1:hover{   
- box-shadow: 0px 12px 45px 0px #536DFD40;
+ box-shadow: 0px 12px 45px 0px #120c3b40;
  scale: 1.05;
 } 
 .card1{
@@ -49,10 +49,10 @@ color: #2E2E2E;
 
 }
 .name2:hover{
-    color:#536DFD;
+    color:#120c3b;
 }
 .name1:hover{
-    color:#536DFD;
+    color:#120c3b;
 }
 
 
@@ -104,17 +104,17 @@ border-radius: 0px;
    
     .ycard2:hover{
 
-        box-shadow: 0px 12px 45px 0px #536DFD40;  
+        box-shadow: 0px 12px 45px 0px #120c3b40;  
         scale: 1.05;
     }    
     .ycard1:hover{
 
-        box-shadow: 0px 12px 45px 0px #536DFD40;  
+        box-shadow: 0px 12px 45px 0px #120c3b40;  
         scale: 1.05;
     }   
     .ycard3:hover{
 scale: 1.05;
-        box-shadow: 0px 12px 45px 0px #536DFD40;  
+        box-shadow: 0px 12px 45px 0px #120c3b40;  
 
     }   
     
@@ -249,7 +249,7 @@ box-shadow: 0px 2px 2px 0px #0000001A;
     line-height: 17px;
     justify-content: center;
     text-align: center;
-    background: #FFE600;
+    background: #fa9905;
 
      
     

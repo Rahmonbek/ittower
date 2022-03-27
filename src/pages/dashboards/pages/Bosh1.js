@@ -52,13 +52,13 @@ export default function Bosh1() {
         <div className={styles.TextHeaderMenu}>
           <h1 className={styles.TextHeaderMenuH1}>
             Biz sizga Dasturlash <br />
-            va boshqa <b style={{ color: "#FFD401" }}>Offline</b> va{" "}
-            <b style={{ color: "#FFD401" }}>Online</b> kurslarni taklif etamiz.
+            va boshqa <b style={{ color: "#fa9905" }}>Offline</b> va{" "}
+            <b style={{ color: "#fa9905" }}>Online</b> kurslarni taklif etamiz.
           </h1>
           <p>
             Siz istalgan vaqtda har qanday mavzuda{" "}
-            <b style={{ color: "#FFD401" }}>Offline</b> va{" "}
-            <b style={{ color: "#FFD401" }}>Online</b> kurslarni o’rganishingiz
+            <b style={{ color: "#fa9905" }}>Offline</b> va{" "}
+            <b style={{ color: "#fa9905" }}>Online</b> kurslarni o’rganishingiz
             mumkin.
           </p>
         </div>
