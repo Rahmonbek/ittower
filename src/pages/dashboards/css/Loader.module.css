@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color:#0a061f;
   overflow: hidden;
 }
 .kuting{
@@ -20,7 +20,7 @@
   height: 10em;
   font-size: 15px;
   box-sizing: border-box;
-  border-top: 0.3em solid rgb(21, 4, 85);
+  border-top: 0.3em solid #120c3b;
   border-radius: 50%;
   position: relative;
   animation: rotating 2s ease-in-out infinite;
@@ -39,12 +39,12 @@
 }
 
 .loader::before {
-  border-top: 0.3em solid dodgerblue;
+  border-top: 0.3em solid #120c3b;
   transform: rotate(120deg);
 }
 
 .loader::after {
-  border-top: 0.3em solid gold;
+  border-top: 0.3em solid #fa9905;
   transform: rotate(240deg);
 }
 

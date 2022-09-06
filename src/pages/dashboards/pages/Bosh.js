@@ -14,7 +14,6 @@ import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 export default function NavbarGroup() {
   return (
     <div>
-     <Router>
       <Navbar className={menyu.Navbar1} fixed="top" bg="light"  expand="lg">
   <Container>
     <Navbar.Brand href="#"> <img  className={menyu.BrandImg} src={Logo}></img></Navbar.Brand>
@@ -22,15 +21,14 @@ export default function NavbarGroup() {
     <Navbar.Collapse id="basic-navbar-nav">
       
       <Nav id={menyu.Nav1} className="me-auto">
-        <NavLink className={menyu.Nav2} to={'/'}>Bosh sahifa</NavLink>
-        <NavLink className={menyu.Nav2}  to={'/course/'}>Kurslarimiz</NavLink>
-        <NavLink className={menyu.Nav2}   to={'/contact/'}>Biz bilan bog`lanish</NavLink>
+        <NavLink style={{color:'#120c3b'}} activeStyle={{color:'#fa9905'}} className={menyu.Nav2} exact to='/'>Bosh sahifa</NavLink>
+        <NavLink style={{color:'#120c3b'}} activeStyle={{color:'#fa9905'}} className={menyu.Nav2}  to='/course/'>Kurslarimiz</NavLink>
+        <NavLink style={{color:'#120c3b'}} activeStyle={{color:'#fa9905'}} className={menyu.Nav2}   to='/contact/'>Biz bilan bog`lanish</NavLink>
        </Nav> 
        
     </Navbar.Collapse>
   </Container>
 </Navbar>
-      </Router>
     </div>
   );
 }

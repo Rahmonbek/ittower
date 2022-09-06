@@ -5,7 +5,7 @@ export default class Loader extends Component {
     return (<div className={style.body}>
       <div style={{display:'block'}}>
 <div className={style.loader}>
-  <span >IT - Tower</span>
+  <span >IT Tower</span>
 </div>
 
       <div className={style.kuting}>Iltimos kuting...</div></div>

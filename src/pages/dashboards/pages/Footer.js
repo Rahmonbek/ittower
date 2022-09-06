@@ -58,7 +58,7 @@ export default class Footer extends Component {
                      
                     </a>
                     <a
-                      href="https://youtube.com"
+                      href="https://www.youtube.com/channel/UCRs5qJOGHasabtlOHW1q4sg"
                       target="_blank"
                     
                     >
@@ -128,7 +128,7 @@ export default class Footer extends Component {
                       <br /> Zarqaynar ko'ch., 3B-uy
                     </p>
                     <Button type="button">
-                      <a href="https://pdp.uz/">Biz bilan aloqa</a>
+                      <a href="tel: +998930820372">Biz bilan aloqa</a>
                     </Button>
                   </div>
                 </ul>
@@ -136,7 +136,7 @@ export default class Footer extends Component {
 
               <div className={styles.footerText}>
                 <p style={{position:'relative',right:'20px'}}>
-                  © 2021 | Toshkent IT Tower by Abbas
+                  © 2021 | Toshkent shahar Yakkasaroy tumani IT Tower MCHJ
                 </p>
               </div>
             </Row>
